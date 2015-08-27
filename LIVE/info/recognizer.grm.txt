@@ -3,8 +3,8 @@
 
 ## FINITE STATE GRAMMAR
 
-#GRM: (S) <PAU> (S)
-#GRM: (F) <PAU> (F)
+GRM: (S) <PAU> (S)
+GRM: (F) <PAU> (F)
 GRM: S   _C001:C001
 GRM: S   _C002:C002
 GRM: S   _C005:C005
