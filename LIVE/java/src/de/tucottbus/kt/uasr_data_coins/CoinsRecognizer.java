@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Observable;
 import java.util.Observer;
@@ -21,7 +22,7 @@ import de.tucottbus.kt.dlabpro.recognizer.Recognizer;
  * "https://rawgit.com/matthias-wolff/UASR/master/manual/automatic/HMM.xtp.html"
  * ><code>HMM.xtp</code></a> tool:</p>
  * <pre>
- *   dlabpro $UASR_HOME/scripts/dlabpro/HMM.xtp trn &lt;cfgfile&gt;</pre>
+ *   dlabpro $UASR_HOME/scripts/dlabpro/HMM.xtp trn $UASR_HOME-data/coins/LIVE/info/HMM-trn.cfg</pre>
  * 
  * <p>After training, acoustic models and grammar need to be compiled and packed 
  * into binary data files required by the coin recognizer with the <a href= 
@@ -38,25 +39,46 @@ import de.tucottbus.kt.dlabpro.recognizer.Recognizer;
 public class CoinsRecognizer extends Recognizer
 {
 
-  public CoinsRecognizer(File exeFile, Properties config)
+  private CoinsRecognizer(File exeFile, Properties config)
   throws FileNotFoundException, IllegalArgumentException
   {
     super(exeFile, config);
   }
+  
+  /**
+   * Creates a new coin recognizer.
+   * 
+   * @return
+   *   The coin recognizer instance.
+   * @throws FileNotFoundException
+   *           if the recognizer executable was not found.
+   * @throws IOException
+   *           if the configuration file could not be loaded.
+   */
+  public static CoinsRecognizer createInstance() 
+  throws FileNotFoundException, IOException
+  {
+    Properties config = new Properties();
+    File cfgFile = new File(System.getenv("UASR_HOME")
+      + "-data/coins/LIVE/info/recognizer.cfg");
+    System.out.println("Configuration file: "+cfgFile.getAbsolutePath());
+    config.load(new FileInputStream(cfgFile));
+      
+    CoinsRecognizer instance = new CoinsRecognizer(findExecutable("recognizer"),config);
+    return instance;
+  }
 
+  /**
+   * Simple command line demo.
+   * 
+   * @param args -- not used --
+   */
   public static void main(String[] args)
   {
     try
     {
       System.out.println("Enter \"exit<cr>\" to terminate program.");
-
-      Properties config = new Properties();
-      File cfgFile = new File(System.getenv("UASR_HOME")
-          + "-data/coins/LIVE/info/recognizer.cfg");
-      System.out.println("Configuration file: "+cfgFile.getAbsolutePath());
-      config.load(new FileInputStream(cfgFile));
-      
-      final CoinsRecognizer demo = new CoinsRecognizer(findExecutable("recognizer"),config);
+      final CoinsRecognizer demo = CoinsRecognizer.createInstance();
       demo.addObserver(new Observer()
       {
         public void update(Observable o, Object arg)
