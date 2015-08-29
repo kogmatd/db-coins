@@ -12,7 +12,7 @@ data idTst;
 0 nCls =; nCls idCls.nrec < while
 
   "\n CLASS: ${idCls[nCls,0]}" -echo;
-  ( sCmd "spl all.flst -Pl=\"${idCls[nCls,0]}\" -Pn=222" +
+  ( sCmd "spl all.flst -Pl=\"${idCls[nCls,0]}\" -Pn=90" +
          " -Po1=tmp/train.flst -Po2=tmp/test.flst" + ) -system;
          
   "tmp/train.flst" "ascii" idTrnC stdfile -import;

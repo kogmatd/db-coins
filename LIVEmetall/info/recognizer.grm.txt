@@ -1,0 +1,28 @@
+## UASR configuration file
+## - Coins database - live demo: Grammar and lexicon file for recognizer[.exe]
+
+## FINITE STATE GRAMMAR
+
+GRM: (S) <PAU> (S)
+GRM: (F) <PAU> (F)
+GRM: S   _C001:C001
+GRM: S   _C002:C002
+GRM: S   _C005:C005
+GRM: S   _C010:C010
+GRM: S   _C020:C020
+GRM: S   _C050:C050
+GRM: S   _C100:C100
+GRM: S   _C200:C200
+
+## LEXICON
+
+LEX: _C001 C001
+LEX: _C002 C002
+LEX: _C005 C005
+LEX: _C010 C010
+LEX: _C020 C020
+LEX: _C050 C050
+LEX: _C100 C100
+LEX: _C200 C200
+
+## EOF

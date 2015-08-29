@@ -1,4 +1,13 @@
-
+#!/usr/bin/env dlabpro
+## UASR: Unified Approach to Speech Synthesis and Recognition
+## - Short description
+##
+## AUTHOR : ...
+## PACKAGE: uasr/scripts/dlabpro/tools
+##
+## ARGUMENTS:
+##   $1: ???
+##   $2: ???
 
 var  sCmd; "dlabpro $UASR_HOME/scripts/dlabpro/HMM.xtp trn " sCmd =;
 var  fCmd; "dlabpro $UASR_HOME/scripts/dlabpro/FEA.xtp ana " sCmd =;

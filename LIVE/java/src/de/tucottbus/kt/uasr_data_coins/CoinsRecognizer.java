@@ -111,6 +111,7 @@ public class CoinsRecognizer extends Recognizer
       }
       
       System.out.print("\nShutting down...");
+      demo.terminate();
       demo.dispose();
     }
     catch (Exception e)
