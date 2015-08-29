@@ -10,20 +10,39 @@ import java.util.*;
 
 public class fileoperations {
 
+	/*
+	 * Liest alle Wav-Dateien eines Verzeichnisses aus,
+	 * die das Schema Klassenname + "_" + restlicherDateiname + ".wav" besitzen.
+	 * und in den Ordnern beginnend mit "C" (für Summenaufnahmen) oder "E" (für Einzelaufnahmen) enthalten sind.
+	 * Die Ordner müssen direkte Unterverzeichnisse sein, oder in Verzeichnissen mit C/E gekennzeichnet enthalten sein.
+	 * Die Ordner müssen zusätzlich im "sig" Oberverzeichnis angelegt sein (z.B: $UASR_HOME-data/coins/common/sig/C001).
+	 * Geschrieben wird der relativ zum sig-Verzeichnisses Verzeichnisname + Dateiname (ohne .wav) + Leerzeichen + Klassenname
+	 * 
+	 * parameter:
+	 * dir: Unterverzeichnis von sig, enthält Dateien
+	 * mic: (-1) Summe wird verwendet
+	 *      (0...3) Ausgewaehltes Mikrofon
+	 */
 	public static String allWavpath(File dir, Integer mic) {	
 		String out = new String();
 		String path = new String();
 		String name = new String();
-		out = "";
+		out = ""; //Sammlung aller Zeichen die ausgegeben werden sollen.
 		File[] files = dir.listFiles();
 		if (files != null) {
 			for (int i = 0; i < files.length; i++) {
 				if (files[i].isFile()){
 					path = files[i].getAbsolutePath();
-					if (path.endsWith(".wav")) {
-						path = path.substring((path.indexOf("sig")+3), (path.length()-4));
-						name = path.substring((path.lastIndexOf("\\")+1),(path.lastIndexOf("_")));
-						if (mic != -1) {
+
+					if (path.endsWith(".wav")) { //WAV-Datei gefunden
+						try {
+							path = path.substring((path.indexOf("sig")+3), (path.length()-4));
+							name = path.substring((path.lastIndexOf("\\")+1),(path.lastIndexOf("_")));				
+						} catch (StringIndexOutOfBoundsException e) {	
+							//Dateinamen mit falschem Schema werden ignoriert
+						}
+						
+						if (mic != -1) { //Mikrofonauswahl, Ausgabe der Dateinamen + Klasse
 							switch (mic) {
 							case 0: if(path.endsWith("ai0")) {
 									out += path + " " + name + "\n";
@@ -46,9 +65,9 @@ public class fileoperations {
 							out += path + " " + name + "\n";						
 						}
 					}
-				} else if (files[i].isDirectory()) {
+				} else if (files[i].isDirectory()) { //Verzeichnis gefunden, rekursiver Aufruf
 					if (mic == -1) {
-						if (files[i].getName().startsWith("C")) {
+						if (files[i].getName().startsWith("C")) { 
 							out += allWavpath(files[i], mic);
 						}
 					} else {
@@ -63,14 +82,36 @@ public class fileoperations {
 	}
 	
 
-	public static File userdialog(File dir, Scanner scport) {
+	/*
+	 * userdialog lässt den Benutzer ein entsprechendes Verzeichnis oder eine Datei auswählen
+	 * 
+	 * Parameter:
+	 * dir: Vorgegebenes Standard-Verzeichnis
+	 * readonly: TRUE: Datei lesen (Muss existieren)
+	 *           FALSE: Datei schreiben (Kann existieren)
+	 * scport: Übergebener Scanner für Eingaben
+	 */
+	public static File userdialog(File dir, boolean readonly, Scanner scport) {
 		                                                     
-		boolean jn = false;	
+		boolean loop = true;	
 		Scanner sc = scport;
-		while (!jn) {
-			int breakcount = 0;
-			System.out.println("Standardpfad verwenden? j/n");
-			String eingabe = sc.next();
+		File file = null; //Ausgabeverzeichnis/Datei
+		int breakcount = 0; //Zaehler fuer Schleife
+		String eingabe;
+		while (loop) {
+			breakcount++;
+			if (breakcount > 5) {
+				System.out.println("Operation abbrechen? j/n");
+				eingabe = sc.next();
+				if (eingabe.equals("j")) {
+					return null;
+				} else if (eingabe.equals("n")) {
+					breakcount = 0;
+				}
+			}
+			
+			System.out.println("Standardpfad (" + dir +") verwenden? j/n");
+			eingabe = sc.next();
 			
 			if (!eingabe.equals("j")) {
 				if (eingabe.equals("n")) {
@@ -78,31 +119,68 @@ public class fileoperations {
 					eingabe = sc.next();	
 					dir = new File (eingabe);
 				} else {
-					continue;
+					System.out.println("Bitte antworten Sie mit \"j\" oder \"n\"!");
+					continue; //Fängt Operation von vorne an, falls falsche Eingabe
 				}
 			}
 			
-			if (dir.exists()) {
-				System.out.println("Operation wird ausgefï¿½hrt...");
-				jn = true;
+			System.out.println("Wollen Sie noch einen Unterordner/Dateinamen angeben? j/n");
+			eingabe = sc.next();
+			
+			if (!eingabe.equals("n")) {
+				if (eingabe.equals("j")) {
+					System.out.println("Bitte Dateinamen/Ordnernamen angeben:");
+					System.out.print(dir + "\\");
+					eingabe = sc.next();	
+					file = new File (dir + "\\" + eingabe);
+				} else {
+					System.out.println("Bitte antworten Sie mit \"j\" oder \"n\"!");
+					continue;
+				}
 			} else {
-				System.out.println("Pfad existiert nicht, bitte erneut angeben!");
-				jn = false;
-				breakcount++;
-				if (breakcount > 5) {
-					System.out.println("Operation abbrechen? j/n");
+				file = dir;
+			}
+			
+			if (file.exists()) { //Datei existiert bereits
+				if (readonly) { //Datei wird gelesen
+					if (file.isDirectory()) {
+						file = new File (file.toString() + "\\");
+					}
+					System.out.println("Operation wird ausgefuehrt...");
+					return file;
+				} else { //Datei soll geschrieben werden
+					System.err.println("Achtung, Datei existiert bereits. Ueberschreiben? j/n");
 					eingabe = sc.next();
-					if (eingabe.equals("j")) {
-						return null;
-					} else if (eingabe.equals("n")) {
-						breakcount = 0;
+					if (!eingabe.equals("j")){
+						continue;
+					} else {
+						return file;
 					}
 				}
-			}	
+			} else { //Datei existiert nicht
+				if (readonly) { //Datei soll gelesen werden
+					System.out.println("Pfad existiert nicht, bitte erneut angeben!");
+					continue;
+				} else {		
+					try { //Datei soll neu geschrieben werden
+		                System.out.println("Datei wird geschrieben...");
+		                file.createNewFile();
+		            	return file;
+		            } catch (IOException e) {
+		                System.err.println("Ungenuegende Schreibrechte.");
+		                continue;
+		            }
+				}
+			}
 		}
-		return dir;
+		return file;
 	}
 	
+	/*
+	 * Abfrage zur Auswahle eines Mikrofones (0-3) oder der Summe (-1)
+	 * 
+	 * parameter: scport: Uebergebener Scanner
+	 */
 	public static Integer micselect(Scanner scport) {
 		boolean jn = false;	
 		Scanner sc = scport;
@@ -115,76 +193,58 @@ public class fileoperations {
 				System.out.println("Welches Mikrofon? 0-3");
 				eingabe = sc.next();
 				mic = Integer.valueOf(eingabe);
-				if (mic >= 0 && mic < 4) {
-					jn = true;
+				if (mic >= 0 && mic < 4) { //4 = Anzahl der Mikrofone
+					break;
 				} else {
 					System.out.println("Falsche Eingabe.");
 				}
 			} else if (eingabe.equals("n")) {
 				mic = -1;
-				jn = true;
+				break;
 			}
 		}
 		return mic;
 	}
 	
-	public static boolean filewrite(File f, String out){
-		try {
-			FileWriter fw = new FileWriter(f);
-			fw.write(out);
-			fw.flush();
-			fw.close();
-		} catch (IOException e) {
-			System.out.println("IO-Fehler.");
-		}	
-			
-		return true;
-	}
-
-	public static boolean filewritedialog(File standard, String filename, String input, Scanner scin){
+	/*
+	 * Schreibt String in Datei
+	 * 
+	 * Parameter:
+	 * standard = vorgegebener Standardpfad
+	 * input = zu schreibender String
+	 * scin = Übergebener Scanner für Eingabe
+	 */
+	public static boolean filewritedialog(File standard, String input, Scanner scin){
 		Scanner sc = scin;
 		System.out.print("Speicher-");
-		File directory = userdialog(standard, sc);
+		File directory = userdialog(standard, false, sc); //wählt Ordnerpfad aus zum schreiben
 		if (directory == null) {
 			System.out.println("Speichern abgebrochen.");
 			return false;
 		} else {
-			String filelistpath = directory.toString();
-			File filelistfile = new File (filelistpath + "\\" +filename);
-			System.out.println("Speichern unter: \n"
-					+ filelistfile.toString());
-
-			if (filelistfile.exists()) {
-				System.err.println("Achtung, Datei existiert bereits. ï¿½berschreiben? j/n");
-				String eingabe = sc.next();
-				while (!eingabe.equals("j")){
-					if (eingabe.equals("n")) {
-						System.out.println("Operation abgebrochen.");
-						return false;
-					}	
-					System.out.println("Bitte geben Sie \"j\" fï¿½r ï¿½berschreiben ein"
-							+ "oder \"n\" fï¿½r Abbruch!");
-				}
-				
+			try {
+				FileWriter fw = new FileWriter(directory); 
+				fw.write(input);
+				fw.flush(); //schreibt Datei
+				fw.close();
+			} catch (IOException e) {
+				System.out.println("IO-Fehler.");
+				return false;
 			}
-				
-		    if (filelistfile != null) {
-	            try {
-	                filelistfile.createNewFile();
-	            } catch (IOException e) {
-	                System.err.println("Ungenï¿½gende Schreibrechte.");
-	                return false;
-	            }
-		    }
-			filewrite(filelistfile, input);
 			System.out.println("Gespeichert!");
 			return true;
 		}
 	}
 	
-	
+	/*
+	 * Wählt eine Datei aus, erneute Abfrage bei Verzeichnissen
+	 * 
+	 * Parameter:
+	 * dir: Vorgegebener Standardpfad
+	 * sc: Übergebener Scanner fuer Eingabe
+	 */
 	public static File filechoose(File dir, Scanner sc) {
-		File directory = userdialog(dir, sc);
+		File directory = userdialog(dir, true, sc);
 		while (!directory.isFile()){
 			System.out.print("Bitte noch den Dateinamen angeben (Standard: log.txt): ");
 			String Dateiname = sc.next();
@@ -195,14 +255,16 @@ public class fileoperations {
 				directory = tempdir;
 			}
 		}
-		System.out.println("Datei " + directory.toString() + " ausgewï¿½hlt.");
+		System.out.println("Datei " + directory.toString() + " ausgewaehlt.");
 		return directory;
 	}
 	
 	
 	
 	
-	
+	/*
+	 * Hauptprogramm
+	 */
 	public static void main(String [ ] args) {
 		boolean abbruch = false;
 		Scanner sc = new Scanner(System.in);
@@ -218,16 +280,17 @@ public class fileoperations {
 			case "1": 
 				{ //FILELIST GENERIEREN
 					Integer mic = micselect(sc);
-					File dir = new File ("C:\\Users\\wawra\\workspace\\uasr-data\\coins\\common\\sig\\Vorversuch6Glas300\\");
-					File directory = userdialog(dir, sc);
+					String uasr = System.getenv("UASR_HOME");
+					File dir = new File (uasr + "-data\\coins\\common\\sig\\");
+					File directory = userdialog(dir, true, sc);
 					if (directory == null) {
 						System.out.println("Filelisten erstellen abgebrochen.");
 					} else {
 						String wavfilepaths = allWavpath(directory, mic);
 						System.out.println(wavfilepaths);
-						dir = new File ("C:\\Users\\wawra\\workspace\\uasr-data\\coins\\common\\flists\\tmp");
+						dir = new File (uasr + "-data\\coins\\common\\flists\\tmp");
 						boolean jn = false;
-						while (!filewritedialog(dir,  "\\all.flst", wavfilepaths, sc) && !jn) {
+						while (!filewritedialog(dir, wavfilepaths, sc) && !jn) {
 							System.out.println("Erneut probieren? j/n");
 							eingabe = sc.next();
 							if (eingabe.equals("n")) {
@@ -247,7 +310,6 @@ public class fileoperations {
 					try {
 						freader = new FileReader(logfile);
 					} catch (FileNotFoundException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 				    BufferedReader reader = new BufferedReader(freader);
@@ -304,9 +366,7 @@ public class fileoperations {
 						dir = new File ("C:\\Users\\wawra\\workspace\\uasr-data\\coins\\common\\log\\");
 						boolean jn = true;
 						while (jn) {
-							System.out.print("Bitte zu speichernden Dateinamen angeben: ");
-							eingabe = sc.next();
-							jn = !filewritedialog(dir, eingabe, out, sc);
+							jn = !filewritedialog(dir, out, sc);
 							if (jn) {
 								System.out.println("Erneut probieren? j/n");
 								eingabe = sc.next();
