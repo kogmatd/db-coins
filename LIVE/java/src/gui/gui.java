@@ -7,20 +7,21 @@ import java.io.IOException;
 
 public class gui extends Frame {
 
-	int recognizedCoin = 4;
-	boolean sure = false;
-	int width;
-	int height;
-	String abs;
-	String rel = "";
-	String start = "Erkannte Münze:";
-	String notSure = "?";	
-	String yesSure = "!";
-	Image img;
+	private int recognizedCoin = 4;
+	private boolean sure = false;
+	private int width;
+	private int height;
+	private String abs;
+	private String rel = "";
+	private String start = "Erkannte Münze:";
+	private String notSure = "?";	
+	private String yesSure = "!";
+	private Image img;
+	private boolean exit = false;
 	
 	public gui(int w, int h){
 		super("Münzerkennung");
-		addWindowListener(new WindowClosingAdapter(true));
+		addWindowListener(new WindowClosingAdapter(true, this));
 		setBackground(Color.black);
 
 		setSize(w,h);
@@ -37,22 +38,7 @@ public class gui extends Frame {
 	}
 	
 	public gui(){
-		super("Münzerkennung");
-		addWindowListener(new WindowClosingAdapter(true));
-		addComponentListener(new ResizeListener(this));
-		setBackground(Color.black);
-		
-		setSize(600,480);
-		setVisible(true);
-		
-		img = null;
-		abs = "\\LIVE\\java\\src\\img";
-		try {
-			rel = new File(".").getCanonicalPath();
-		} catch (IOException e) {
-			e.printStackTrace();
-			System.err.println("HOME Verzeichnis nicht gefunden.");
-		}
+		this(640,480);
 	}
 	
 	public void setRecognizedCoin(int coin){
@@ -61,6 +47,14 @@ public class gui extends Frame {
 	
 	public void setSure (boolean s){
 		sure = s;
+	}
+	
+	public void close() {
+		exit = true;
+	}
+	
+	public boolean closed(){
+		return exit;
 	}
 	
 	public void paint(Graphics g){
@@ -78,12 +72,12 @@ public class gui extends Frame {
 		g.drawString(start, (width-startLength)/2, 150);
 		
 		switch(recognizedCoin){
-		case 001: img = getToolkit().getImage(rel + abs + "\\C001.jpg"); break;
-		case 002: img = getToolkit().getImage(rel + abs + "\\C002.jpg"); break;
-		case 005: img = getToolkit().getImage(rel + abs + "\\C005.jpg"); break;
-		case 010: img = getToolkit().getImage(rel + abs + "\\C010.jpg"); break;
-		case 020: img = getToolkit().getImage(rel + abs + "\\C020.jpg"); break;
-		case 050: img = getToolkit().getImage(rel + abs + "\\C050.jpg"); break;
+		case   1: img = getToolkit().getImage(rel + abs + "\\C001.jpg"); break;
+		case   2: img = getToolkit().getImage(rel + abs + "\\C002.jpg"); break;
+		case   5: img = getToolkit().getImage(rel + abs + "\\C005.jpg"); break;
+		case  10: img = getToolkit().getImage(rel + abs + "\\C010.jpg"); break;
+		case  20: img = getToolkit().getImage(rel + abs + "\\C020.jpg"); break;
+		case  50: img = getToolkit().getImage(rel + abs + "\\C050.jpg"); break;
 		case 100: img = getToolkit().getImage(rel + abs + "\\C100.jpg"); break;
 		case 200: img = getToolkit().getImage(rel + abs + "\\C200.jpg"); break;
 		default:  img = getToolkit().getImage(rel + abs + "\\C000.png"); break;
