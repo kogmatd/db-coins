@@ -21,7 +21,7 @@ public class WindowClosingAdapter extends WindowAdapter{
 		
 		if (exit) {
 	//		System.exit(0);
-			frame.setVisible(false);
+			frame.close();
 		}
 	}
 }

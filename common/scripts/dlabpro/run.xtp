@@ -1,13 +1,13 @@
 #!/usr/bin/env dlabpro
 ## UASR: Unified Approach to Speech Synthesis and Recognition
-## - Short description
+## - Fuehrt verschiedene HMM-Trainings durch, 
+## wobei allerdings die Modelle überschrieben werden 
+## und somit nur die vom letzten Kommando erhalten bleiben
 ##
-## AUTHOR : ...
+## AUTHOR : Johannes Wawra
 ## PACKAGE: uasr/scripts/dlabpro/tools
 ##
-## ARGUMENTS:
-##   $1: ???
-##   $2: ???
+## ARGUMENTS: none
 
 var  sCmd; "dlabpro $UASR_HOME/scripts/dlabpro/HMM.xtp trn " sCmd =;
 var  fCmd; "dlabpro $UASR_HOME/scripts/dlabpro/FEA.xtp ana " sCmd =;

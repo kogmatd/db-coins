@@ -1,5 +1,9 @@
 package de.tucottbus.kt.uasr_data_coins;
 
+import gui.decodeMessage;
+import gui.gui;
+
+import java.awt.Frame;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -38,7 +42,6 @@ import de.tucottbus.kt.dlabpro.recognizer.Recognizer;
  */
 public class CoinsRecognizer extends Recognizer
 {
-
   private CoinsRecognizer(File exeFile, Properties config)
   throws FileNotFoundException, IllegalArgumentException
   {
@@ -75,7 +78,10 @@ public class CoinsRecognizer extends Recognizer
    */
   public static void main(String[] args)
   {
-    try
+  	final gui guiLogic = new gui();
+  	final Frame guiFrame = guiLogic;
+  	
+	try
     {
       System.out.println("Enter \"exit<cr>\" to terminate program.");
       final CoinsRecognizer demo = CoinsRecognizer.createInstance();
@@ -86,6 +92,10 @@ public class CoinsRecognizer extends Recognizer
           char   type = ((String)arg).charAt(0);
           String msg  = ((String)arg).substring(1);
           String echo = String.format("\n[REC%c %s]",type,msg);
+          decodeMessage.decode(msg);
+          guiLogic.setRecognizedCoin(decodeMessage.getCoin());
+          guiLogic.setSure(decodeMessage.getSure());
+          guiLogic.repaint();
           
           switch (type)
           {

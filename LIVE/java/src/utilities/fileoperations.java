@@ -320,65 +320,60 @@ public class fileoperations {
 				    String t = "\t";
 				    int a;
 				    int b;
-				    while(true) {
-				    	String line = "test";
-				        while(line != null) {
-				        	if(line.indexOf("Correctness") > -1) {
-				        		line.getChars( a=(line.indexOf("HMM") + 4), b=(line.indexOf(")")-1), output, endstring);
-				        		endstring += b-a;
-				        		t.getChars(0, 1, output, endstring);
-				        		endstring += 1;
-				        		line.getChars( a=(line.indexOf(":") + 2), b=(line.indexOf("%")-1), output, endstring);
-				        		endstring += b-a;
-				        		t.getChars(0, 1, output, endstring);
-				        		endstring += 1;
-				        		line.getChars( a=(line.indexOf("+") + 1), b=(line.indexOf("-", 5)-1), output, endstring);
-				        		endstring += b-a;
-				        		t.getChars(0, 1, output, endstring);
-				        		endstring += 1;
-				        		line.getChars( a=(line.indexOf("-", 5) + 1), b=(line.indexOf("(") -1), output, endstring);
-				        		endstring += b-a;
-				        		n.getChars(0, 1, output, endstring);
-				        		endstring += 1;
-				        		System.out.print(".");
-				        	}
-				        	if(line.indexOf("Vektor")> -1){  
-				        		n.getChars(0, 1, output, endstring);
-				        		endstring += 1;    		
-				        		line.getChars( a=(line.indexOf("Vektor") - 2), b=(line.indexOf("}")), output, endstring);
-				        		endstring += b-a;	
-				        		n.getChars(0, 1, output, endstring);
-				        		endstring += 1;
-				        	}
-				        	try {
-								line = reader.readLine();
-							} catch (IOException e) {
-								System.err.println("IO FEHLER");
-							}
-					    }
-				        
-				        System.out.println("\nFertig.");
-				        //out = new String(output);
-				        
-		
-				        out = String.valueOf(output);
-				       
-						dir = new File ("C:\\Users\\wawra\\workspace\\uasr-data\\coins\\common\\log\\");
-						boolean jn = true;
-						while (jn) {
-							jn = !filewritedialog(dir, out, sc);
-							if (jn) {
-								System.out.println("Erneut probieren? j/n");
-								eingabe = sc.next();
-								if (eingabe.equals("j")) {
-									continue;
-								}
-							}
-							break;
-						};
-						break;
+			    	String line = "readLine see below";
+			        while(line != null) {
+			        	if(line.indexOf("Correctness") > -1) {
+			        		line.getChars( a=(line.indexOf("HMM") + 4), b=(line.indexOf(")")-1), output, endstring);
+			        		endstring += b-a;
+			        		t.getChars(0, 1, output, endstring);
+			        		endstring += 1;
+			        		line.getChars( a=(line.indexOf(":") + 2), b=(line.indexOf("%")-1), output, endstring);
+			        		endstring += b-a;
+			        		t.getChars(0, 1, output, endstring);
+			        		endstring += 1;
+			        		line.getChars( a=(line.indexOf("+") + 1), b=(line.indexOf("-", 5)-1), output, endstring);
+			        		endstring += b-a;
+			        		t.getChars(0, 1, output, endstring);
+			        		endstring += 1;
+			        		line.getChars( a=(line.indexOf("-", 5) + 1), b=(line.indexOf("(") -1), output, endstring);
+			        		endstring += b-a;
+			        		n.getChars(0, 1, output, endstring);
+			        		endstring += 1;
+			        		System.out.print(".");
+			        	}
+			        	if(line.indexOf("Vektor")> -1){  
+			        		n.getChars(0, 1, output, endstring);
+			        		endstring += 1;    		
+			        		line.getChars( a=(line.indexOf("Vektor") - 2), b=(line.indexOf("}")), output, endstring);
+			        		endstring += b-a;	
+			        		n.getChars(0, 1, output, endstring);
+			        		endstring += 1;
+			        	}
+			        	try {
+							line = reader.readLine();
+						} catch (IOException e) {
+							System.err.println("IO FEHLER");
+						}
 				    }
-				    
+			        
+			        System.out.println("\nFertig.");
+			        		
+			        out = String.valueOf(output);
+			       
+					dir = new File ("C:\\Users\\wawra\\workspace\\uasr-data\\coins\\common\\log\\");
+					boolean jn = true;
+					while (jn) {
+						jn = !filewritedialog(dir, out, sc);
+						if (jn) {
+							System.out.println("Erneut probieren? j/n");
+							eingabe = sc.next();
+							if (!eingabe.equals("n")) {
+								continue;
+							}
+						}
+						break;
+					}
+			    
 				    
 				}
 				break;

@@ -1,3 +1,10 @@
+#!/usr/bin/env dlabpro
+## UASR: Unified Approach to Speech Synthesis and Recognition
+## - waehlt aus der all.flst zufaellig Test- und Trainingsdaten aus 
+## AUTHOR : Matthias Wolff
+## PACKAGE: uasr/scripts/dlabpro/tools
+##
+## ARGUMENTS: none
 
 var  nCls;
 var  sCmd; "dlabpro $UASR_HOME/scripts/dlabpro/tools/FLST.xtp " sCmd =;
