@@ -1,0 +1,64 @@
+HMM Training
+============
+
+Config.: trn
+Date   : 2015-09-11
+dLabPro: dLabPro version 2.5.5 build UNKOWNwin32(ix86,32bit)release PID:5744
+UASR   : ?
+DB     : ?
+Host   : $HOSTNAME
+
+Configuration Details
+=====================
+
+uasr.db =  "coins";
+uasr.sig.srate =  16000;
+uasr.pfa.crate =  160;
+uasr.pfa.wlen =  400;
+uasr.pfa.len =  512;
+uasr.am.train.split =  5;
+uasr.am.train.ite0 =  3;
+uasr.am.train.ite1 =  5;
+uasr.am.train.ite2 =  7;
+uasr.am.train.ite3 =  9;
+uasr.am.train.ite4 =  11;
+uasr.am.train.ite5 =  13;
+uasr.am.train.ite6 =  7;
+uasr.am.train.ite7 =  7;
+uasr.am.train.splitbest =  TRUE;
+uasr.am.model =  "0_0";
+uasr.exp =  "";
+uasr.sig.aquant =  16;
+uasr.sig.ext =  "wav";
+uasr.spp =  "none";
+uasr.fea.f0 =  FALSE;
+uasr.fea.pm =  FALSE;
+uasr.fea.pm.level =  2.0;
+uasr.fea.ext =  "dn3";
+uasr.fea.savecompressed =  TRUE;
+uasr.pfa =  "MEL";
+uasr.pfa.dim =  30;
+uasr.pfa.anaoptions =  "";
+uasr.pfa.synoptions =  "";
+uasr.sfa =  "std,delta,pca";
+uasr.sfa.dim =  24;
+uasr.sfa.delta =  "pattern";
+uasr.sfa.delta.dpat =  "1 0";
+uasr.sfa.delta.ddpat =  "1 0";
+uasr.am.sil =  3;
+uasr.am.gbg =  4;
+uasr.am.mapexp =  0;
+uasr.am.train.split.minrc =  -1;
+
+
+Database include script
+=======================
+
+[none]
+
+Customization script
+====================
+
+[none]
+
+EOF
