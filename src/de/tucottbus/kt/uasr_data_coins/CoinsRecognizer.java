@@ -40,9 +40,9 @@ import de.tucottbus.kt.dlabpro.recognizer.Recognizer;
  * 
  * @author Matthias Wolff
  */
-public class CopyOfCoinsRecognizer extends Recognizer
+public class CoinsRecognizer extends Recognizer
 {
-  private CopyOfCoinsRecognizer(File exeFile, Properties config)
+  private CoinsRecognizer(File exeFile, Properties config)
   throws FileNotFoundException, IllegalArgumentException
   {
     super(exeFile, config);
@@ -58,7 +58,7 @@ public class CopyOfCoinsRecognizer extends Recognizer
    * @throws IOException
    *           if the configuration file could not be loaded.
    */
-  public static CopyOfCoinsRecognizer createInstance() 
+  public static CoinsRecognizer createInstance() 
   throws FileNotFoundException, IOException
   {
     Properties config = new Properties();
@@ -67,7 +67,7 @@ public class CopyOfCoinsRecognizer extends Recognizer
     System.out.println("Configuration file: "+cfgFile.getAbsolutePath());
     config.load(new FileInputStream(cfgFile));
       
-    CopyOfCoinsRecognizer instance = new CopyOfCoinsRecognizer(findExecutable("recognizer"),config);
+    CoinsRecognizer instance = new CoinsRecognizer(findExecutable("recognizer"),config);
     return instance;
   }
 
@@ -84,7 +84,7 @@ public class CopyOfCoinsRecognizer extends Recognizer
 	try
     {
       System.out.println("Enter \"exit<cr>\" to terminate program.");
-      final CopyOfCoinsRecognizer demo = CopyOfCoinsRecognizer.createInstance();
+      final CoinsRecognizer demo = CoinsRecognizer.createInstance();
       demo.addObserver(new Observer()
       {
         public void update(Observable o, Object arg)
