@@ -125,7 +125,7 @@ sAm -MLM_gen_recognizer_cfg;
 "\n\nINVOKE: " sCmd + "\n" + -echo; sCmd -system;
 
 ## Test recognizer
-  "\n\n   Creating flists/test_wav.flst ..."                             -echo;
+"\n\n   Creating flists/test_wav.flst ..."                               -echo;
 data idFlist;
 data idFiles;
 data idLab;
@@ -143,6 +143,7 @@ idLab idFlist -join;
 "flists/test_wav.flst" "ascii" idFlist stdfile -export;
 " done."                                                                 -echo;
 
+"\n\n   Testing recognizer ..."                                          -echo;
 "recognizer -cfg info/recognizer.cfg flists/test_wav.flst" sCmd =;
 "\n\nINVOKE: " sCmd + "\n" + -echo; sCmd -system;
 
