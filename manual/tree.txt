@@ -1,0 +1,82 @@
++---coins
+|   +---fea
+|   |   \---MEL_30
+|   |       +---Versuch1
+|   |       |   +---C001
+|   |       |   +---C002
+|   |       |   +---C005
+|   |       |   +---C010
+|   |       |   +---C020
+|   |       |   +---C050
+|   |       |   +---C100
+|   |       |   \---C200
+|   |       +---Versuch2
+|   |       +---Versuch3
+|   |       \---Vorversuch
+|   +---flists
+|   |   +---tmp
+|   |   |   |---test.flst
+|   |   |   \---train.flst
+|   |   \all.flst
+|   +---info
+|   +---log
+|   +---model
+|   +---scripts
+|   |   +---dlabpro
+|   |       \---MAKEFLST.xtp
+|   \---sig
+|       +---test
+|       |   +---test
+|       |   \---testE
+|       +---Versuch2Experiment1
+|       |   +---C001
+|       |   +---C002
+|       |   +---C005
+|       |   +---C010
+|       |   +---C020
+|       |   +---C050
+|       |   +---C100
+|       |   +---C200
+|       |   +---CSIL
+|       |   +---E001
+|       |   +---E002
+|       |   +---E005
+|       |   +---E010
+|       |   +---E020
+|       |   +---E050
+|       |   +---E100
+|       |   +---E200
+|       |   \---ESIL
+|       +---Versuch2Experiment2
+|       +---Versuch2Experiment3
+|       +---Versuch3Experiment1
+|       +---Versuch3Experiment2
+|       +---Vorlage
+|       \---Vorversuch
++---manual
+|   +---automatic
+|   +---resources
+|   +---home.html
+|   \---BA.pdf
++---src
+|   +---de
+|   |   \---tucottbus
+|   |       \---kt
+|   |           \---uasr_data_coins
+|   |               \---CoinsRecognizer.java
+|   +---gui
+|   |   +---decodeMessage.java
+|   |   +---gui.java
+|   |   \---WindowClosingAdapter.java
+|   +---img
+|   \---utilities
+|       \---filoperations.java
++---target
++---Versuch1
+|   +---flists
+|   +---info
+|   +---log
+|   \---model
++---Versuch2
++---Versuch3
+\---Vorversuch
