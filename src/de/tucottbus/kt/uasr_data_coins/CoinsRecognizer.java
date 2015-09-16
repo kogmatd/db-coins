@@ -79,7 +79,6 @@ public class CoinsRecognizer extends Recognizer
   public static void main(String[] args)
   {
   	final gui guiLogic = new gui();
-  	final Frame guiFrame = guiLogic;
   	
 	try
     {
