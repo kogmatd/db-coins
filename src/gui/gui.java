@@ -10,16 +10,25 @@ import javax.swing.JFrame;
 public class gui extends Frame {
 
 	private int recognizedCoin = 0;
-	private boolean sure = false;
-	private int width;
-	private String abs;
-	private String rel = "";
-	private String start = "Erkannte Münze:";
-	private String notSure = "?";	
-	private String yesSure = "!";
-	private String history;
-	private Image img;
-	private boolean exit = false;
+	private boolean sure = false;             //Bestätigte Erkennung der Münze
+	private int width;                        //Breite des Fensters
+	private String abs;                       //Pfad relativ zu uasr-data-coins
+	private String rel = "";                  //Pfad von uasr-data-coins
+	private String start = "Erkannte Münze:"; //Oberer String
+	private String notSure = "?";			  //Zeichen neben der Münze für Rückweisung
+	private String yesSure = "!";             //Zeichen neben der Münze für Akzeptanz
+	private String history;  //Strings für die Ausgabe der bisherigen Ergebnisse
+	private String c001;
+	private String c002;
+	private String c005;
+	private String c010;
+	private String c020;
+	private String c050;
+	private String c100;
+	private String c200;
+	private String notr;
+	private Image img;      //Darstellung der Münze
+	private boolean exit = false;              //Angabe ob Programm beendet werden soll
 	private int[][] coinHistory = {
 			{0,0}, //[0][0] 1cent, [0][1] sure1cent
 			{0,0}, //[1][0] 2cent, [1][1] sure...
@@ -31,8 +40,7 @@ public class gui extends Frame {
 			{0,0}, //[7] 2euro
 			{0,0}  //[8] no recognition
 	};
-	private int allCoins;
-//	Panel historyPanel;
+	private int allCoins;   //Zähler für alle Ergebnisse
 	
 	
 	public gui(int w, int h){
@@ -44,20 +52,21 @@ public class gui extends Frame {
 		setVisible(true);
 		
 		img = null;
-		abs = "\\LIVE\\java\\src\\img";
+		abs = "\\src\\img";
 		try {
 			rel = new File(".").getCanonicalPath();
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.err.println("HOME Verzeichnis nicht gefunden.");
 		}
-		
-	//	add(historyPanel, BorderLayout.SOUTH);
-		
 	}
 	
 	public gui(){
 		this(400,600);
+	}
+	
+	public void resetAllCoins(){
+		allCoins = 0;
 	}
 	
 	public void setRecognized(int coin, boolean s){
@@ -86,7 +95,11 @@ public class gui extends Frame {
 			case  50: {coinHistory[5][1] += 1; break;}
 			case 100: {coinHistory[6][1] += 1; break;}
 			case 200: {coinHistory[7][1] += 1; break;}
-			default : {coinHistory[8][1] += 1; break;} //this should never happen, because not recognized is never sure
+			default : {                                   //this occurs only if the message wasn't a coin recognition event
+				coinHistory[8][1] += 1;   
+				allCoins -= 1; 
+				coinHistory[8][0] -= 1;
+				break;} 
 			}
 		}	
 	}
@@ -135,16 +148,16 @@ public class gui extends Frame {
 		}
 		
 		g.setFont(bottomFont);
-		history = (allCoins-9) + " Wuerfe davon: \n";
-		String c001 = "  1 Cent: " + coinHistory[0][0] + "; davon sicher: " + coinHistory[0][1];
-		String c002 = "  2 Cent: " + coinHistory[1][0] + "; davon sicher: " + coinHistory[1][1];
-		String c005 = "  5 Cent: " + coinHistory[2][0] + "; davon sicher: " + coinHistory[2][1];
-		String c010	= "10 Cent: " + coinHistory[3][0] + "; davon sicher: " + coinHistory[3][1];
-		String c020	= "20 Cent: " + coinHistory[4][0] + "; davon sicher: " + coinHistory[4][1];
-		String c050	= "50 Cent: " + coinHistory[5][0] + "; davon sicher: " + coinHistory[5][1];
-		String c100	= "  1 Euro: " + coinHistory[6][0] + "; davon sicher: " + coinHistory[6][1];
-		String c200 = "  2 Euro: " + coinHistory[7][0] + "; davon sicher: " + coinHistory[7][1];
-		String notr = "nicht erkannt: " + (coinHistory[8][0]-9);
+		history = (allCoins) + " Wuerfe davon: \n";
+		c001 = "  1 Cent: " + coinHistory[0][0] + "; davon sicher: " + coinHistory[0][1];
+		c002 = "  2 Cent: " + coinHistory[1][0] + "; davon sicher: " + coinHistory[1][1];
+		c005 = "  5 Cent: " + coinHistory[2][0] + "; davon sicher: " + coinHistory[2][1];
+		c010	= "10 Cent: " + coinHistory[3][0] + "; davon sicher: " + coinHistory[3][1];
+		c020	= "20 Cent: " + coinHistory[4][0] + "; davon sicher: " + coinHistory[4][1];
+		c050	= "50 Cent: " + coinHistory[5][0] + "; davon sicher: " + coinHistory[5][1];
+		c100	= "  1 Euro: " + coinHistory[6][0] + "; davon sicher: " + coinHistory[6][1];
+		c200 = "  2 Euro: " + coinHistory[7][0] + "; davon sicher: " + coinHistory[7][1];
+		notr = "nicht erkannt: " + coinHistory[8][0];
 		fm = g.getFontMetrics();
 		int historyLength = fm.stringWidth(c001);
 		g.drawString(history, (width-historyLength)/2, 400);
