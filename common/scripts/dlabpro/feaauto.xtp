@@ -1,8 +1,0 @@
-
-
-var  sCmd; "dlabpro $UASR_HOME/scripts/dlabpro/FEA.xtp ana " sCmd =;
-
-"\n 1 Vektor ======================================================= 1}" -echo;
-( sCmd "$UASR_HOME-data/coins/common/info/default.cfg" + ) -system;
-
-quit

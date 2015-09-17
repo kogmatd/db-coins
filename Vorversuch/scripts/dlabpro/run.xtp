@@ -1,0 +1,27 @@
+#!/usr/bin/env dlabpro
+## UASR: Unified Approach to Speech Synthesis and Recognition
+## executes multiple HMM-Trainings with different config-files 
+## but overrides calculated models, so it is only useful for calculate recognition rates
+## for lazy people who don't want to wait for every HMM-Training to get ready
+## AUTHOR : Johannes Wawra
+## PACKAGE: uasr/scripts/dlabpro/tools
+##
+## ARGUMENTS: none
+
+var  sCmd; "dlabpro $UASR_HOME/scripts/dlabpro/HMM.xtp trn " sCmd =;
+var  fCmd; "dlabpro $UASR_HOME/scripts/dlabpro/FEA.xtp ana " sCmd =;
+
+"\n 1 Vektor ======================================================= 1}" -echo;
+( fCmd "$UASR_HOME-data/coins/Vorversuch/info/default.cfg" + ) -system;
+( sCmd "$UASR_HOME-data/coins/Vorversuch/info/default.cfg" + ) -system;
+#"\n 3 Vektor ======================================================= 3}" -echo;
+#( sCmd "$UASR_HOME-data/coins/Vorversuch/info/default3.cfg" + ) -system;
+#"\n 5 Vektor ======================================================= 5}" -echo;
+#( sCmd "$UASR_HOME-data/coins/Vorversuch/info/default5.cfg" + ) -system;
+#"\n 7 Vektor ======================================================= 7}" -echo;
+#( sCmd "$UASR_HOME-data/coins/Vorversuch/info/default7.cfg" + ) -system;
+"\n 9 Vektor ======================================================= 9}" -echo;
+( fCmd "$UASR_HOME-data/coins/Vorversuch/info/default9.cfg" + ) -system;
+( sCmd "$UASR_HOME-data/coins/Vorversuch/info/default9.cfg" + ) -system;
+
+quit
