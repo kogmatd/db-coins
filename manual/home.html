@@ -78,6 +78,7 @@
   </div>
 
   <a name="introduction"></a>
+
   <div id="clp_introduction">
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
       <tr>
@@ -92,7 +93,76 @@
       </tr>
     </table>
     <div class="mframe2">
-      <span class="TODO">[<b>TODO:</b>...]</span>
+  		  <!--{{ CUSTOM_DOC -->
+			  For prepairing a live experiment follow the steps below: <BR>
+			  <ol>
+				  <li> Execute the FEA.xtp script in the directory of the actual experiment with following parameters:
+				   	<ul> 
+				  		<li> $1 ana </li>
+				  		<li> $2 C:\users\[USERNAME]\workspace\uasr-data\coins\[EXPERIMENTNAME]\info\HMM-trn.cfg </li>
+				  	</ul>
+				  	If you are using the windows command prompt, be sure to specify the absolute file path for FEA.xtp. <br>
+				  	Alternatively you can use the preset run configurations in eclipse, <br>
+				  	only be sure to take the correct one for the experiment.
+				  </li>
+				  <li> Execute the HMM.trn script in the same directory with following parameters: 
+				    <ul> 
+				  		<li> $1 trn </li>
+				  		<li> $2 C:\users\[USERNAME]\workspace\uasr-data\coins\[EXPERIMENTNAME]\info\HMM-trn.cfg </li>
+				  	</ul>
+				  	The 2nd Parameter has to be equal as in the FEA.xtp script, also be sure to use absolute file paths.
+				  	</li>
+				  
+				  <li> Start Scarlett MixControl for feedback setup
+				    <ol>
+   				        <li> turn the last volume knob (labeled with a phones icon) to a low level, e.g. "2" or "3" <BR>
+				             because the feedback can be dangerous for your ears if you are wearing the headphones </li>
+				        <li> if a connection error occurs, be sure that the power line is activated and the soundcard is running </li>
+				        <li> be sure that there is a feedback line  <BR> 
+				             from OUTPUT 1 at the back-side to INPUT 1 at the front </li>
+        				<li> be sure that the phones are plugged in the socket labeled with the phones icon </li>
+				      	<li> open LoopRec.8i6 </li>
+				      	<li> play a sound (longer sounds recommended) in windows, e.g. with the windows media player </li>
+				      	<li> turn the 1st knob (labeled GAIN) to optimal feedback level (should be at "8") </li>
+				      	<li> if the 1st and the last two volume indicators move if the sound is playing <BR> 
+				      	     and you do not hear a beep noise on the phones everything is fine. </li>
+				        <li> do not close Scarlett Mix Control, yet
+				    </ol>
+				    </li>
+				  <li> Start NI LabVIEW 2013 and open "Mikrofonfeld 3.1.vi" from path "C:\National Instruments Download"
+				    <ol>
+				        <li> go to the menu "Ansicht" and activate "Werkzeugpalette" </li>
+				        <li> choose the hand from the new window </li>
+				        <li> change "Anzahl der Aufnahmen" from 10 to 1000
+				    	<li> change modus from "getriggert" to "kontinuierlich" </li>
+				    	<li> activate 2nd blue button (the one with a triangle) so triangle turns green </li>
+				    	<li> turn the knob labeled "Volume Ausgabe" to 100 </li>
+				        <li> activate all 4 channels by pushing the red buttons labeled "Kanal X An/Aus" <br>
+				             (X stands for the channel number) so they turn green </li>
+				        <li> additional if you want to record define filepaths in "Speicherpfad Summe" and 
+				             "Speicherpfad Einzelaufnahme" and activate the 1st blue button so it turns red </li>
+				        <li> run the vi by clicking the arrow in the top left corner or select from menu "Ausführen" entry "starten" </li>
+				        <li> you shall now see some noise patterns in the 4 graphs on the left </li>
+				        <li> level "Verstärkung Summe" to "0,05" and in case of record level "Verstärkung Einzelkanäle" to "0,1", too </li>
+				        <li> now you can throw coins for test purposes into the bowl, <br>
+				             if you see now in the right graphs some signals, too and the level is not above 1 the signal should go out </li>
+				        <li> change to Scarlett Mix Control (do not stop the vi) and throw again coins into the bowl, <br>
+				             if the 1st and the last two volume indicator move everything is fine</li>
+				        <li> if you have an assistant you can check the correct signal level on the phones while he is throwing the coins </li>
+				        <li> now you can quit Scarlett Mix Control </li>
+				        <li> stop the vi by pressing the STOPP Button </li>
+				    </ol>
+				    </li>
+				  <li> 
+				        
+				    	
+				  
+				  
+				  
+				  
+			  </ol>
+		  <!--}} CUSTOM_DOC -->
+  		</span>
     </div>
   </div>
 
