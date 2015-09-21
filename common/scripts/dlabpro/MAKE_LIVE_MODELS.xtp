@@ -91,7 +91,8 @@ function -MLM_gen_recognizer_cfg(sAm)
   "data.dialog     =\n"                                                 iDG >>;
   "data.feainfo    = " sExpDir + "/model/feainfo.object\n" +            iDG >>;
   "data.gmm        = " sExpDir + "/model/$[sAm].gmm\n" +                iDG >>;
-  "data.vadinfo    = " sExpDir + "/model/3_10_mod.vad\n" +              iDG >>;
+  #"data.vadinfo    = " sExpDir + "/model/3_10_mod.vad\n" +              iDG >>;
+  "data.vadinfo    = \n"                                                iDG >>;
   "data.sesinfo    = " sExpDir + "/model/sesinfo.object\n" +            iDG >>;
   "vad.nolimit     = yes\n"                                             iDG >>;
   "out             = cmd\n"                                             iDG >>;
