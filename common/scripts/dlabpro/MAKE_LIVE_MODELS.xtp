@@ -44,6 +44,7 @@ function -MLM_find_best_model()
 function -MLM_gen_recpackdata_cfg(sAm)
 {
   DGen iDG;
+#  var  sExpDir; "\$UASR_HOME-data/coins/LIVE" sExpDir =;
   var  sExpDir; "\$UASR_HOME-data/coins/Versuch3" sExpDir =;
 
   "\n\n   Generating info/REC_PACKDATA.cfg ..."                          -echo;
