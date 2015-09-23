@@ -1,7 +1,9 @@
 package gui;
 
 import java.awt.*;
+import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
 import java.io.File;
 import java.io.IOException;
 
@@ -9,7 +11,7 @@ import javax.swing.JFrame;
 
 public class gui extends Frame {
 
-	private int recognizedCoin = 0;
+	private int recognizedCoin = 20;
 	private boolean sure = false;             //Bestätigte Erkennung der Münze
 	private int width;                        //Breite des Fensters
 	private String abs;                       //Pfad relativ zu uasr-data-coins
@@ -29,6 +31,7 @@ public class gui extends Frame {
 	private String notr;
 	private Image img;      //Darstellung der Münze
 	private boolean exit = false;              //Angabe ob Programm beendet werden soll
+	private static boolean refr = false;              //Angabe ob neu gezeichnet werden soll
 	private int[][] coinHistory = {
 			{0,0}, //[0][0] 1cent, [0][1] sure1cent
 			{0,0}, //[1][0] 2cent, [1][1] sure...
@@ -46,6 +49,12 @@ public class gui extends Frame {
 	public gui(int w, int h){
 		super("Münzerkennung");
 		addWindowListener(new WindowClosingAdapter(true, this));
+		this.addComponentListener(new ComponentAdapter(){
+			@Override
+			public void componentResized(ComponentEvent e) {
+				gui.refresh();
+			}
+		});
 		setBackground(Color.black);
 
 		setSize(w,h);
@@ -59,11 +68,13 @@ public class gui extends Frame {
 			e.printStackTrace();
 			System.err.println("HOME Verzeichnis nicht gefunden.");
 		}
+		dorepaint();
 	}
 	
 	public gui(){
 		this(400,600);
 	}
+
 	
 	public void resetAllCoins(){
 		allCoins = 0;
@@ -112,6 +123,23 @@ public class gui extends Frame {
 		return exit;
 	}
 	
+	public static void refresh(){
+		refr = true;
+	}
+	
+	public void dorepaint(){
+		for(;;) {
+			if (refr) repaint();
+			refr = false;
+			try {
+				wait(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
 	public void paint(Graphics g){
 		width = getSize().width;
 	
@@ -128,17 +156,17 @@ public class gui extends Frame {
 		g.drawString(start, (width-startLength)/2, 150);
 		
 		switch(recognizedCoin){
-		case   1: img = getToolkit().getImage(rel + abs + "\\C001.jpg"); break;
-		case   2: img = getToolkit().getImage(rel + abs + "\\C002.jpg"); break;
-		case   5: img = getToolkit().getImage(rel + abs + "\\C005.jpg"); break;
-		case  10: img = getToolkit().getImage(rel + abs + "\\C010.jpg"); break;
-		case  20: img = getToolkit().getImage(rel + abs + "\\C020.jpg"); break;
-		case  50: img = getToolkit().getImage(rel + abs + "\\C050.jpg"); break;
-		case 100: img = getToolkit().getImage(rel + abs + "\\C100.jpg"); break;
-		case 200: img = getToolkit().getImage(rel + abs + "\\C200.jpg"); break;
+		case   1: img = getToolkit().getImage(rel + abs + "\\C001.png"); break;
+		case   2: img = getToolkit().getImage(rel + abs + "\\C002.png"); break;
+		case   5: img = getToolkit().getImage(rel + abs + "\\C005.png"); break;
+		case  10: img = getToolkit().getImage(rel + abs + "\\C010.png"); break;
+		case  20: img = getToolkit().getImage(rel + abs + "\\C020.png"); break;
+		case  50: img = getToolkit().getImage(rel + abs + "\\C050.png"); break;
+		case 100: img = getToolkit().getImage(rel + abs + "\\C100.png"); break;
+		case 200: img = getToolkit().getImage(rel + abs + "\\C200.png"); break;
 		default:  img = getToolkit().getImage(rel + abs + "\\C000.png"); break;
 		}
-		g.drawImage(img, (width-100)/2, 200, this);
+		g.drawImage(img, (width-100)/2, 200, 110, 110, this);
 		
 		g.setFont(SureFont);
 		if (sure){
