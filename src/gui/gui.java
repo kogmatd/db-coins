@@ -52,7 +52,7 @@ public class gui extends Frame {
 		setVisible(true);
 		
 		img = null;
-		abs = "\\src\\img";
+		abs = "\\src\\resources";
 		try {
 			rel = new File(".").getCanonicalPath();
 		} catch (IOException e) {
