@@ -236,6 +236,75 @@ public class Fileoperations {
 		}
 	}
 	
+/*
+ * Wandelt HMM-LogDatei in einen String,
+ * in welchem aus den Zeilen, die "Correctness" enthalten
+ * die Werte für Erkennqote und Intervall sowie das Modell
+ * mit Tabs getrennt aufgelistet werden.
+ */
+public static String transform(File logfile) {
+	FileReader freader = null;
+	try {
+		freader = new FileReader(logfile);
+	} catch (FileNotFoundException e) {
+		e.printStackTrace();
+	}
+    BufferedReader reader = new BufferedReader(freader);
+    char[] output = new char[10000];
+    int endstring = 0;
+    String out = "Extrahierung Fehlgeschlagen.";
+    String n = "\n";
+    String t = "\t";
+    int a;
+    int b;
+	String line = "readLine see below";
+    while(line != null) {
+    	if(line.indexOf("Correctness") > -1) {
+    		line.getChars( a=(line.indexOf("HMM") + 4), b=(line.indexOf(")")-1), output, endstring);
+    		endstring += b-a;
+    		t.getChars(0, 1, output, endstring);
+    		endstring += 1;
+    		line.getChars( a=(line.indexOf(":") + 2), b=(line.indexOf("%")-1), output, endstring);
+    		endstring += b-a;
+    		t.getChars(0, 1, output, endstring);
+    		endstring += 1;
+    		line.getChars( a=(line.indexOf("+") + 1), b=(line.indexOf("-", 5)-1), output, endstring);
+    		endstring += b-a;
+    		t.getChars(0, 1, output, endstring);
+    		endstring += 1;
+    		line.getChars( a=(line.indexOf("-", 5) + 1), b=(line.indexOf("(") -1), output, endstring);
+    		endstring += b-a;
+    		n.getChars(0, 1, output, endstring);
+    		endstring += 1;
+    		System.out.print(".");
+    	}
+    	if(line.indexOf("Vektor")> -1){  
+    		n.getChars(0, 1, output, endstring);
+    		endstring += 1;    		
+    		line.getChars( a=(line.indexOf("Vektor") - 2), b=(line.indexOf("}")), output, endstring);
+    		endstring += b-a;	
+    		n.getChars(0, 1, output, endstring);
+    		endstring += 1;
+    	}
+    	try {
+			line = reader.readLine();
+		} catch (IOException e) {
+			System.err.println("IO FEHLER");
+		}
+    }
+    
+    System.out.println("\nFertig.");
+    out = String.valueOf(output);
+    try {
+		reader.close();
+	} catch (IOException e) {
+		System.err.print("Buffered Reader kann nich geschlossen werden.");
+	}
+
+    return (out);
+}
+	
+	
 	/*
 	 * Wählt eine Datei aus, erneute Abfrage bei Verzeichnissen
 	 * 
@@ -286,7 +355,7 @@ public class Fileoperations {
 					if (directory == null) {
 						System.out.println("Filelisten erstellen abgebrochen.");
 					} else {
-						String wavfilepaths = allWavpath(directory, mic);
+						String wavfilepaths = allWavpath(directory, mic); //hier die eigentliche Verarbeitung
 						System.out.println(wavfilepaths);
 						dir = new File (uasr + "-data\\coins\\common\\flists\\tmp");
 						boolean jn = false;
@@ -306,60 +375,7 @@ public class Fileoperations {
 					File dir = new File ("C:\\Users\\wawra\\workspace\\uasr-data\\coins\\common\\log\\");
 					System.out.print("Logdatei-");
 					File logfile = filechoose(dir, sc);
-					FileReader freader = null;
-					try {
-						freader = new FileReader(logfile);
-					} catch (FileNotFoundException e) {
-						e.printStackTrace();
-					}
-				    BufferedReader reader = new BufferedReader(freader);
-				    char[] output = new char[10000];
-				    int endstring = 0;
-				    String out = "Extrahierung Fehlgeschlagen.";
-				    String n = "\n";
-				    String t = "\t";
-				    int a;
-				    int b;
-			    	String line = "readLine see below";
-			        while(line != null) {
-			        	if(line.indexOf("Correctness") > -1) {
-			        		line.getChars( a=(line.indexOf("HMM") + 4), b=(line.indexOf(")")-1), output, endstring);
-			        		endstring += b-a;
-			        		t.getChars(0, 1, output, endstring);
-			        		endstring += 1;
-			        		line.getChars( a=(line.indexOf(":") + 2), b=(line.indexOf("%")-1), output, endstring);
-			        		endstring += b-a;
-			        		t.getChars(0, 1, output, endstring);
-			        		endstring += 1;
-			        		line.getChars( a=(line.indexOf("+") + 1), b=(line.indexOf("-", 5)-1), output, endstring);
-			        		endstring += b-a;
-			        		t.getChars(0, 1, output, endstring);
-			        		endstring += 1;
-			        		line.getChars( a=(line.indexOf("-", 5) + 1), b=(line.indexOf("(") -1), output, endstring);
-			        		endstring += b-a;
-			        		n.getChars(0, 1, output, endstring);
-			        		endstring += 1;
-			        		System.out.print(".");
-			        	}
-			        	if(line.indexOf("Vektor")> -1){  
-			        		n.getChars(0, 1, output, endstring);
-			        		endstring += 1;    		
-			        		line.getChars( a=(line.indexOf("Vektor") - 2), b=(line.indexOf("}")), output, endstring);
-			        		endstring += b-a;	
-			        		n.getChars(0, 1, output, endstring);
-			        		endstring += 1;
-			        	}
-			        	try {
-							line = reader.readLine();
-						} catch (IOException e) {
-							System.err.println("IO FEHLER");
-						}
-				    }
-			        
-			        System.out.println("\nFertig.");
-			        		
-			        out = String.valueOf(output);
-			       
+			        String out = transform (logfile); //hier die eigentliche Verarbeitung
 					dir = new File ("C:\\Users\\wawra\\workspace\\uasr-data\\coins\\common\\log\\");
 					boolean jn = true;
 					while (jn) {
