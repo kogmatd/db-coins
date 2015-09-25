@@ -63,7 +63,7 @@ public class CoinsRecognizer extends Recognizer
   {
     Properties config = new Properties();
     File cfgFile = new File(System.getenv("UASR_HOME")
-      + "-data/coins/LIVE/info/recognizer.cfg");
+      + "-data/coins/Versuch1/info/recognizer.cfg");
     System.out.println("Configuration file: "+cfgFile.getAbsolutePath());
     config.load(new FileInputStream(cfgFile));
       
