@@ -14,7 +14,7 @@ public class decodeMessage {
 			msg.getChars(start + 1, start + 4, coinCharArray, 0);
 			coin = Integer.parseInt(String.valueOf(coinCharArray));
 		} else {
-			sure = false;
+			sure = true;
 			coin = 0;
 		}
 	}
