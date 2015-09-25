@@ -11,7 +11,7 @@ import javax.swing.JFrame;
 
 public class gui extends Frame {
 
-	private int recognizedCoin = 20;
+	private int recognizedCoin = 0;
 	private boolean sure = false;             //Bestätigte Erkennung der Münze
 	private int width;                        //Breite des Fensters
 	private String abs;                       //Pfad relativ zu uasr-data-coins
@@ -31,7 +31,6 @@ public class gui extends Frame {
 	private String notr;
 	private Image img;      //Darstellung der Münze
 	private boolean exit = false;              //Angabe ob Programm beendet werden soll
-	private static boolean refr = false;              //Angabe ob neu gezeichnet werden soll
 	private int[][] coinHistory = {
 			{0,0}, //[0][0] 1cent, [0][1] sure1cent
 			{0,0}, //[1][0] 2cent, [1][1] sure...
@@ -52,7 +51,7 @@ public class gui extends Frame {
 		this.addComponentListener(new ComponentAdapter(){
 			@Override
 			public void componentResized(ComponentEvent e) {
-				gui.refresh();
+				repaint();
 			}
 		});
 		setBackground(Color.black);
@@ -68,7 +67,6 @@ public class gui extends Frame {
 			e.printStackTrace();
 			System.err.println("HOME Verzeichnis nicht gefunden.");
 		}
-		dorepaint();
 	}
 	
 	public gui(){
@@ -123,22 +121,6 @@ public class gui extends Frame {
 		return exit;
 	}
 	
-	public static void refresh(){
-		refr = true;
-	}
-	
-	public void dorepaint(){
-		for(;;) {
-			if (refr) repaint();
-			refr = false;
-			try {
-				wait(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-	}
 	
 	public void paint(Graphics g){
 		width = getSize().width;
