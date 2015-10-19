@@ -1,16 +1,13 @@
 package gui;
 
-import java.awt.Frame;
 import java.awt.event.*;
-
-import de.tucottbus.kt.uasr_data_coins.CoinsRecognizer;
 
 public class WindowClosingAdapter extends WindowAdapter{
 	private static boolean exit;
 	gui frame;
 	
-	public WindowClosingAdapter(boolean exit, gui frame){
-		this.exit = exit;
+	public WindowClosingAdapter(boolean exitKnob, gui frame){
+		exit = exitKnob;
 		this.frame = frame;
 	}
 	

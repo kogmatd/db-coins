@@ -3,11 +3,8 @@ package gui;
 import java.awt.*;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
 import java.io.File;
 import java.io.IOException;
-
-import javax.swing.JFrame;
 
 public class gui extends Frame {
 

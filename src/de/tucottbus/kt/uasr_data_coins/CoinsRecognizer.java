@@ -3,7 +3,6 @@ package de.tucottbus.kt.uasr_data_coins;
 import gui.decodeMessage;
 import gui.gui;
 
-import java.awt.Frame;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
