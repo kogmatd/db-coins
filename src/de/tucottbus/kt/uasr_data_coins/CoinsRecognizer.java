@@ -77,7 +77,7 @@ public class CoinsRecognizer extends Recognizer
    */
   public static void main(String[] args)
   {
-  	final gui guiLogic = new gui();
+  	final gui guiProg = new gui();
   	
 	try
     {
@@ -91,8 +91,8 @@ public class CoinsRecognizer extends Recognizer
           String msg  = ((String)arg).substring(1);
           String echo = String.format("\n[REC%c %s]",type,msg);
           decodeMessage.decode(msg);
-          guiLogic.setRecognized(decodeMessage.getCoin(), decodeMessage.getSure());
-          guiLogic.repaint();
+          guiProg.setRecognized(decodeMessage.getCoin(), decodeMessage.getSure());
+          guiProg.repaint();
           
           switch (type)
           {

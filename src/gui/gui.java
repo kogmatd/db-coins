@@ -159,10 +159,10 @@ public class gui extends Frame {
 		c001 = "  1 Cent: " + coinHistory[0][0] + "; davon sicher: " + coinHistory[0][1];
 		c002 = "  2 Cent: " + coinHistory[1][0] + "; davon sicher: " + coinHistory[1][1];
 		c005 = "  5 Cent: " + coinHistory[2][0] + "; davon sicher: " + coinHistory[2][1];
-		c010	= "10 Cent: " + coinHistory[3][0] + "; davon sicher: " + coinHistory[3][1];
-		c020	= "20 Cent: " + coinHistory[4][0] + "; davon sicher: " + coinHistory[4][1];
-		c050	= "50 Cent: " + coinHistory[5][0] + "; davon sicher: " + coinHistory[5][1];
-		c100	= "  1 Euro: " + coinHistory[6][0] + "; davon sicher: " + coinHistory[6][1];
+		c010 = "10 Cent: " + coinHistory[3][0] + "; davon sicher: " + coinHistory[3][1];
+		c020 = "20 Cent: " + coinHistory[4][0] + "; davon sicher: " + coinHistory[4][1];
+		c050 = "50 Cent: " + coinHistory[5][0] + "; davon sicher: " + coinHistory[5][1];
+		c100 = "  1 Euro: " + coinHistory[6][0] + "; davon sicher: " + coinHistory[6][1];
 		c200 = "  2 Euro: " + coinHistory[7][0] + "; davon sicher: " + coinHistory[7][1];
 		notr = "nicht erkannt: " + coinHistory[8][0];
 		fm = g.getFontMetrics();
