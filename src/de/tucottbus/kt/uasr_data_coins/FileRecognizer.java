@@ -1,6 +1,11 @@
 package de.tucottbus.kt.uasr_data_coins;
 import java.io.*;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+import java.nio.file.WatchKey;
+import java.nio.file.WatchService;
 
+import static java.nio.file.StandardWatchEventKinds.*;
 import gui.decodeMessage;
 import gui.gui;
 
@@ -19,28 +24,47 @@ public class FileRecognizer {
 	/*
 	 * returns number of files in dir
 	 */
-	public static Integer getFiles(File dir){
+	public static File getLastFile(File dir){
 		File[] files = dir.listFiles();
-		return (files.length);
+		Integer nbr = files.length-1;
+		return (files[nbr]);
 	}
-	
 	
 
 	public static void main(String [ ] args) {
 		final gui guiProg = new gui();	// create gui
-
-		String dirIn = ""; 				// read directory from input
+		String dirIn = "C:/Users/wawra/workspace/uasr-data/coins/common/sig/test/test"; 				// read directory from input
 		File dir = new File(dirIn);		// open dir
-		Integer nbr = getFiles(dir);
-		File file = getNextFile(dir, nbr);	// open last file in dir  
+		File file = getLastFile(dir);   // opens last file in dir
+		Path path = dir.toPath();
+		
+		WatchService newFileWatcher = null;
+		try {
+			newFileWatcher = FileSystems.getDefault().newWatchService();
+			path.register(newFileWatcher, ENTRY_CREATE, ENTRY_MODIFY);
+		} catch (IOException e) {
+			System.err.println("WatchService failed");
+		}
 
-		while (file != null) {
-			String msg = "";				// analyze file
+		while(true) {
+			WatchKey key;
+			try {
+				key = newFileWatcher.take();
+			} catch (InterruptedException e) {
+				System.out.println("Interrupted. Program ending.");
+				break;
+			}
+			
+			
+			
+			
+			System.out.println(file.toString());
+			
+	/*		String msg = "";				// analyze file
 			decodeMessage.decode(msg);
 	        guiProg.setRecognized(decodeMessage.getCoin(), decodeMessage.getSure());
 	        guiProg.repaint();
-	        nbr += 1;
-	        file = getNextFile(dir, nbr);	// wait for next file			
+	        // wait for one second / change in filesystem */
 		}
 	}
 	
