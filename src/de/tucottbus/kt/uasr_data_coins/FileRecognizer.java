@@ -46,7 +46,7 @@ public class FileRecognizer extends Thread{
 	
 
 	public static void main(String [ ] args) {
-		final gui guiProg = new gui();	// create gui
+	//	final gui guiProg = new gui();	// create gui
 		String dirIn = "C:\\Users\\wawra\\workspace\\uasr-data\\coins\\common\\sig\\test\\test"; 				// read directory from input
 		File dir = new File(dirIn);		// open dir
 		File file = getLastFile(dir);   // opens last file in dir
@@ -128,7 +128,7 @@ public class FileRecognizer extends Thread{
 		String uasr = System.getenv("UASR_HOME");
 		String dlabDir = uasr.substring(0,uasr.length()-4) + "dLabPro"; //DLabPro instead of uasr
 		String cmd = dlabDir + "\\bin.release\\recognizer -cfg " + uasr + "-data\\coins\\Versuch1" + "\\info\\recognizer.cfg "
-						+ dirIn + "/" + filename.toString();
+						+ dirIn + "\\" + filename.toString();
 		ProcessBuilder recognizerProcess = new ProcessBuilder("cmd","/c","dir",cmd);
 		System.out.println(cmd);
 		
