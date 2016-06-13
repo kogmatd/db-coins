@@ -1,36 +1,22 @@
-+---coins                                    # Wurzelverzeichnis der Datenbasis
-|   +---fea                                  # beinhaltet die FEA-Analysen der Aufnahmen
-|   |   \---MEL_30                           
-|   |       +---Versuch1Experiment1          
-|   |       |   +---C001                     # die Verzeichnisstruktur ist analog zu der
-|   |       |   +---C002                     # ...Verzeichnisstruktur der wave-Aufnahmen
-|   |       |   +---C005
-|   |       |   +---C010
-|   |       |   +---C020
-|   |       |   +---C050
-|   |       |   +---C100
-|   |       |   +---C200
-|   |       |   \---CSIL
-|   |       +---Versuch2Experiment3          # (Ordner mit gleicher Struktur sind nicht aufgeklappt)
-|   |       +---Versuch3Experiment2          # Die Analysen sind reproduzierbar und koennen daher von den 
-|   |       \---Vorversuch                   # ...vorherigen Experimenten (1,2 von Versuch2) geloescht werden.
-|   +---flists
+coins                                        # Wurzelverzeichnis der Datenbasis
++---common                                   # gemeinsam genutzte Dateien in diesem Verzeichnis
+|   |---+---flists
 |   |   +---tmp
 |   |   |   |---test.flst                    # von MAKEFLST.xtp erstellte Test- und Trainingsfilelists
 |   |   |   \---train.flst
 |   |   \all.flst                            # Standardpfad für all.flst, verwendet von MAKEFLST.xtp
-|   +---info
+|   +---info  
 |   |   +---classes.txt                      # Standard-classes-Datei, gibt an wie viele Vektoren die Modelle haben
 |   |   \---default.cfg                      # Standard Konfigurationsdatei 
 |   +---log                                  # Standard-Speicherpfad für Logdateien, beinhaltet sowohl System-logs
 |   |   +---out.txt                          # ...als auch selbst gespeicherte Konsolenausgaben (out.txt),
-|   |   \---out_table.txt                    # ...Fileoperations arbeitet default auf diesem Verzeichnis
+|   |   \---out_table.t                      # ...Fileoperations arbeitet default auf diesem Verzeichnis
 |   +---model                                # sollte leer sein
 |   +---scripts
 |   |   \---dlabpro                          # dlabpro-Skripts
 |   |       +---MAKE_LIVE_MODELS.xtp         # Skript fuer automatisierte LIVE-Erkennung
 |   |       \---MAKEFLST.xtp                 # Skript fuer Erstellung der Test- und Trainingsfilelists
-|   \---sig                                  
+|   \---sig                                  # Ordner fuer Audiodaten, muss nachtraeglich importiert werden
 |       +---test                             # Ordner fuer temporaere Aufnahmedateien, z.B. fuer die LIVE-Erkennung
 |       |   +---test
 |       |   \---testE
@@ -61,8 +47,8 @@
 |       +---Vorlage
 |       \---Vorversuch
 +---manual                                   # enhaelt die Hilfedateien
-|   +---automatic
-|   +---resources
+|   +---automatic                            # Ordner für HTML-Hilfe
+|   +---resources                            # Bildmaterial der HTML Hilfe
 |   +---home.html                            # Startseite der HTML-Hilfe
 |   \---BA.pdf                               # pdf der dazugehoerigen Bachelorarbeit (ausfuehrlichere Beschreibung)
 +---src
@@ -81,9 +67,9 @@
 +---target
 +---Versuch1
 |   +---flists                               # Verzeichnis mit den Filelisten fuers Training des aktuellen Versuchs
-|   |   +---all.flst
-|   |   +---test.flst
-|   |   \---train.flst
+|   |   +---all.flst                         # Filelist für alle dem Experiment angehörigen Dateien
+|   |   +---test.flst                        # zum Test gehörige Dateien
+|   |   \---train.flst                       # Dateien für Training, dürfen keine Test-Dateien enthalten
 |   +---info                                 # Konfigurationsdateien fuer HMM-Training sowie LIVE-Erkennung
 |   |   +---classes.txt
 |   |   +---HMM-trn.cfg
@@ -95,19 +81,6 @@
 +---Versuch3
 \---Vorversuch                               # beinhaltet keine LIVE-Erkennung, war zum bestaetigen der Machbarkeit
     +---flists                               # ...der gesamten Versuchsreihe
-    +---info
-    |   +---classes.txt                      # classes-Dateien mit 1,3,5,7,9 Zustandsvektoren  sind zum austesten,
-    |   +---classes3.txt                     # ...welches Training die besten Erkennungsraten liefert.
-    |   +---classes5.txt                     
-    |   +---classes7.txt
-    |   +---classes9.txt
-    |   +---default.cfg                      # Konfigurationsdateien zugehoerig zu den classes-Dateien
-    |   +---default3.cfg
-    |   +---default5.cfg
-    |   +---default7.cfg
-    |   +---default9.cfg
-    +---log
-    +---model
-    \---scripts
-        \---dlabpro
-            \---run.xtp                      # Skript für automatisiertes Training mit verschiedenen cfg-Dateien
+    \---info
+        +---classes.txt                      # gibt an, wie viele Klassen mit jeweils wie vielen HMM-Zuständen traininert werden
+        \---Vorversuch.mcfg                  # zentrale Datei zum Verwalten des Versuches mit MiSIS-Oberflaeche/Plugin
