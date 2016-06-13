@@ -14,7 +14,7 @@
 ## https://rawgit.com/matthias-wolff/UASR/master/manual/index.html
 
 ## Database settings                                                            # -------------------------------------
-uasr.db                   = "coinss";                                           # Database name
+uasr.db                   = "uasr-data-coins";                                           # Database name
 uasr.exp                  = "Vorversuch";                                         # Experiment name
 
 ## Signal, preprocessing and feature settings                                   # -------------------------------------
@@ -38,4 +38,5 @@ uasr.am.model             = "5_0";                                              
 uasr.am.sil               = -1;                                                 # No silence model
 uasr.am.gbg               = -1;                                                 # No garbage model
 
+uasr.dir.sig	= "$UASR_HOME-data\uasr-data-coins\common\sig\Vorversuch";
 ## EOF
