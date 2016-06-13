@@ -1,0 +1,41 @@
+## UASR configuration file
+## - MiSIS bottles database: Configuration file for experiment 004_A
+##
+## Usage: 
+##   dlabpro $UASR_HOME/scripts/dlabpro/FEA.xtp ana Versuch004_A.mcfg
+##   dlabpro $UASR_HOME/scripts/dlabpro/HMM.xtp trn Versuch004_A.mcfg
+##   dlabpro $UASR_HOME/scripts/dlabpro/REC_PACKDATA.xtp rec Versuch004_A.mcfg -Pout=<outdir> -Pouttyp=<type>
+##
+## Arguments:
+##   outdir - output folder of REC_PACKDATA.xtp
+##   type   - output file type of REC_PACKDATA.xtp: F, R (default), or S
+##
+## For details, see documentations of FEA.xtp, HMM.xtp, and REC_PACKDATA.xtp at 
+## https://rawgit.com/matthias-wolff/UASR/master/manual/index.html
+
+## Database settings                                                            # -------------------------------------
+uasr.db                   = "coinss";                                           # Database name
+uasr.exp                  = "Versuch1";                                         # Experiment name
+
+## Signal, preprocessing and feature settings                                   # -------------------------------------
+uasr.sig.srate            = 48000;                                              # Signal sampling rate [Hz]
+uasr.pfa                  = "UPFA";                                             # Universal primary analysis
+uasr.pfa.wlen             = 400;                                                # Analysis window length [samples]
+uasr.pfa.len              = 512;                                                # Frame length
+
+## Acoustic model settings                                                      # -------------------------------------
+uasr.am.train.split       = 5;                                                  # Number of splits
+uasr.am.train.ite0        = 3;                                                  # Number of iterations at split 0
+uasr.am.train.ite1        = 5;                                                  # Number of iterations at split 1
+uasr.am.train.ite2        = 7;                                                  # Number of iterations at split 2
+uasr.am.train.ite3        = 9;                                                  # Number of iterations at split 3
+uasr.am.train.ite4        = 11;                                                 # Number of iterations at split 4
+uasr.am.train.ite5        = 13;                                                 # Number of iterations at split 5
+uasr.am.train.ite6        = 7;                                                  # Number of iterations at split 6
+uasr.am.train.ite7        = 7;                                                  # Number of iterations at split 7
+uasr.am.train.splitbest   = TRUE;                                               # Use the best HMM for split
+uasr.am.model             = "5_0";                                              # Default model for recogn./synthesis
+uasr.am.sil               = -1;                                                 # No silence model
+uasr.am.gbg               = -1;                                                 # No garbage model
+
+## EOF
