@@ -14,7 +14,7 @@
 ## https://rawgit.com/matthias-wolff/UASR/master/manual/index.html
 
 ## Database settings                                                            # -------------------------------------
-uasr.db                   = "coinss";                                           # Database name
+uasr.db                   = "coins";                                            # Database name
 uasr.exp                  = "Versuch1";                                         # Experiment name
 
 ## Signal, preprocessing and feature settings                                   # -------------------------------------
