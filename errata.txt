@@ -1,3 +1,0 @@
-2016-06-29
-  errata.txt: test set not unique 
-  --> KORRIGEIERT
