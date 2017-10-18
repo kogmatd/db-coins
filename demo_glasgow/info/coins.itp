@@ -1,0 +1,7 @@
+#
+
+function -UPFA_map_LOGTRIM(idFea)
+{
+  idFea -UPFA_map_LOG;
+  0 150 idFea /rec -xfetch idFea =;
+}
