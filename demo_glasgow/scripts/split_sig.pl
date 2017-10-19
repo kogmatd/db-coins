@@ -3,7 +3,8 @@
 use strict;
 use File::Basename;
 
-my $defcfg=$ENV{HOME}."/src/misisdemo/bsp/coinsall.cfg";
+#my $defcfg=$ENV{HOME}."/src/misisdemo/bsp/coinsall.cfg";
+my $defcfg=dirname($0)."/../model/recfix.cfg";
 my $sigori=dirname($0)."/../sig_ori";
 my $sigdst=dirname($0)."/../sig";
 my $flst=dirname($0)."/../flists/all.flst";
