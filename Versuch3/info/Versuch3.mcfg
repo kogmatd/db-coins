@@ -38,4 +38,22 @@ uasr.am.model             = "5_0";                                              
 uasr.am.sil               = -1;                                                 # No silence model
 uasr.am.gbg               = -1;                                                 # No garbage model
 
+#uasr.recfix.nrm.frm = 0.5;
+#uasr.recfix.nrm.trf = 8;
+#uasr.recfix.nrm.fil = 4;
+#uasr.recfix.nrm.dlt1 = 10;
+#uasr.recfix.nrm.dlt2 = 16;
+#uasr.recfix.nrm.dlt2 = 16;
+#uasr.recfix.nrm.pca = 15;
+#uasr.recfix.shf.dlt0= 0;
+#uasr.recfix.shf.dlt1= 1;
+#uasr.recfix.shf.dlt2= 2;
+
+uasr.recfix.trg.thr1 = 0.0244;
+uasr.recfix.trg.thr2 = 0;
+uasr.recfix.trg.off1 = 0;
+uasr.recfix.trg.off2 = 150;
+uasr.recfix.trg.mino = 20;
+
+
 ## EOF
