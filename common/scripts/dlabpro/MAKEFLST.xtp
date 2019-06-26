@@ -1,0 +1,43 @@
+#!/usr/bin/env dlabpro
+## UASR: Unified Approach to Speech Synthesis and Recognition
+## - waehlt aus der all.flst zufaellig Test- und Trainingsdaten aus 
+## AUTHOR : Matthias Wolff
+## PACKAGE: uasr/scripts/dlabpro/tools
+##
+## ARGUMENTS: none
+
+var  nCls;
+var  sCmd; "dlabpro $UASR_HOME/scripts/dlabpro/tools/FLST.xtp " sCmd =;
+data idCls; "$UASR_HOME-data/coins/common/info/classes.txt" "ascii" idCls stdfile -import;
+data idTrnC;
+data idTstC;
+data idTrn;
+data idTst;
+
+"$UASR_HOME-data/coins/common/flists" -cd;
+
+0 nCls =; nCls idCls.nrec < while
+
+  "\n CLASS: ${idCls[nCls,0]}" -echo;
+  ( sCmd "spl all.flst -Pl=\"${idCls[nCls,0]}\" -Pn=90" +
+         " -Po1=tmp/train.flst -Po2=tmp/test.flst" + ) -system;
+         
+  "tmp/train.flst" "ascii" idTrnC stdfile -import;
+  "tmp/test.flst"  "ascii" idTstC stdfile -import;
+
+  idTrnC idTrn -cat;
+  idTstC idTst -cat;
+  
+  nCls ++=;
+
+end
+
+#idTrn /list -print;
+#idTst /list -print;
+
+"tmp/train.flst" "ascii" idTrn stdfile -export;
+"tmp/test.flst"  "ascii" idTst stdfile -export;
+
+"\n" -echo;
+
+quit

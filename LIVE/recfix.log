@@ -1,0 +1,5170 @@
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C005C001C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001C005C002SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0  16   0   0  31   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_1A-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  31  31   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0024.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16  16   0   0   0   0  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  16  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  31  16   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0  16   0  16  16  16   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C002C001C200C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C200 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0  16   0   0   0  31   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_2D-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001SILC200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16  16   0   0   0   0  47   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C001C001C005C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  62   0   0 
+cmd: lab: C001 res: C010 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0008.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C001C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C002 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0018.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0019.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0021.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0027.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  16  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  62   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001C005C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  31   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  16  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16  16   0   0   0   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  31  16  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0052.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_3D-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  16   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0018.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0  16   0   0   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0024.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  31  16  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0034.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0040.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_4D-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0  16   0   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  47   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C200C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62  16   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0019.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0  16   0   0  62   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  31  31   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0046.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0053.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16  16 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C001/C001_5D-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: C002C001C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  47   0   0 
+cmd: lab: C001 res: C001 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C100C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  31  31   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0  16   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0027.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47  16   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  31  16   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  31   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0040.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0  16 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0046.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  47   0  16 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_1D-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62  16   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0034.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0  16   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_2D-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0018.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0021.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0  16   0   0  31   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  47  16   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78  16   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_3D-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILSILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C002C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16  16   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0046.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0052.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0053.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_4D-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0  16  31   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16  16   0   0   0   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0022.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0024.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002SILC002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0  16   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0040.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  31  31   0  16 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C002/C002_5D-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C002
+res fst 1: C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  62   0   0 
+cmd: lab: C002 res: C002 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C005C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  47  16   0 
+cmd: lab: C005 res: C020 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0  16  47  16   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0027.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0034.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0  16   0   0   0  47   0  16 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  62   0   0 
+cmd: lab: C005 res: C010 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_1D-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0  16   0   0   0   0  47   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C010 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0040.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0046.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_2D-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0  16   0   0   0  62   0   0 
+cmd: lab: C005 res: C010 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0018.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  16  47   0   0 
+cmd: lab: C005 res: C010 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  31   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_3D-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  31  16   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C005C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  16  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  16  47   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0008.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C005 res: C010 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16  16   0   0   0   0  31   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0018.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0021.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0024.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  16  47   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C005C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C005 res: C020 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_4D-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  47   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0008.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78  16   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  16  31   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0  16 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  31  31   0  16 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0039.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0  16   0   0   0   0  47   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  31   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C010C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C005/C005_5D-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47  16   0 
+cmd: lab: C005 res: C005 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16  16   0   0   0   0   0  47   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0  16   0  16   0   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0  16   0  47   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0  16   0   0  16   0  31 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  16  31   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C010C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  31   0  16 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  47   0   0   0   0   0  47   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16  16   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0039.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47  16   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0052.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C100C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0053.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C010C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0  16 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_1D-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0015.wav
+dec_init frm 0
+dec_fin  frm 179
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  31   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0024.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  94   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C005C100C050C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  31   0   0 
+cmd: lab: C010 res: C020 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0040.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0  16   0   0  47   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  31 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_2D-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C100C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16  16   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C100C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  47   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C001C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0  16   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_3D-0053.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0  16  31   0   0  16   0  16 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0018.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0022.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16  16   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  47   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0051.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_4F-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C002SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16  16   0  47   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0034.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C010
+res fst 1: C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C010 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0053.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  78   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C010/C010_5F-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C005
+res fst 1: C005C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  62   0   0 
+cmd: lab: C010 res: C005 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C100C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  31  47   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  31  62   0   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0  16 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0019.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  16  47   0   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0  31 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0046.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_1B-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0  16   0   0  62   0   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  47   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16  16   0  16   0   0   0  31   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0022.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16  16 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0034.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  47  31   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0052.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C100C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0 109   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_2D-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  31  47   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  16  31   0  16 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C010
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  31   0   0   0   0  47   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0  16 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0 109   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0046.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47  16   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_3F-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C100C050C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C005C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62  16   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  47  16   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0024.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0  16 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C005C100C020SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78  16   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0  16   0  62   0  16 
+cmd: lab: C020 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0051.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  47   0   0   0   0   0  47   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62  16   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_4N-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31  31   0   0   0   0  31   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47  16   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0021.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  31   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0027.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C020C002C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  62   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C020/C020_5R-0052.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C020C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C020 res: C020 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C001SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0  16   0   0   0  47   0   0 
+cmd: lab: C050 res: C020 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C100C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  47   0  16 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0013.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0027.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C050C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  47   0   0 
+cmd: lab: C050 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16  16   0   0   0   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C020 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_1D-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  31  31   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C050 res: C020 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0018.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0021.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  31  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C005C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C020 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C100C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0052.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C100C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  16  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_2D-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C050 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C020
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C100C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0031.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0034.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  31   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0  16   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C002
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  16  47   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0051.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_3E-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C050C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C100C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C100C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  47   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  31   0   0   0   0   0   0  31   0  16 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0030.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  62   0  16 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0041.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0051.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_4F-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  47   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62  16   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0019.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C100C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0027.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C100C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C020
+res fst 1: C050C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C020 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0  16  47   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0042.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C005
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  47   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  47   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0  16  62   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C050/C050_5R-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C050C001
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C050 res: C050 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_1A-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_1A-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_1A-0019.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_1A-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_2A-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_2A-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_2A-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0  16   0   0   0   0  47   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_4D-0000.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0  16 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_4D-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_4D-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_4D-0039.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_5E-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_5E-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_5E-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_5E-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_5E-0033.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_5E-0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C005C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C100/C100_5E-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C100 res: C100 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  31  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0  31  31   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0008.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0  16   0   0   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0022.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47  16   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0034.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0039.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C020C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  47   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0051.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C020C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0  16   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0  16   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16  16   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0019.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0  16   0   0   0  62  16   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  47   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0040.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0046.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  31 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C100C200C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16  16   0  16   0   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  47   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0  16  31   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C200C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0  16   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0053.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0051.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0008.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0021.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  31   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  31  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C050C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  62  16   0 
+cmd: lab: C200 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0  16   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  31   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0002.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  31   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0008.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0022.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0023.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0034.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0039.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C020C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16  16   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0051.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_1B-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0  16  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C020C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  31   0   0   0   0   0   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0010.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0011.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0019.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0  16  31   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0025.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0  31  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0040.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0046.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0055.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_2D-0059.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C050
+res fst 1: C100C200C050C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C050 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0001.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  31   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0004.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62  16   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0012.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0015.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0  16   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0028.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C200C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0   0 
+cmd: lab: C200 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0044.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0050.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0  16  31   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0053.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0054.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_3E-0057.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0003.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C100
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0007.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62  16   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0017.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47  16   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0037.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0038.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0047.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0051.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0  16   0   0   0   0   0   0  31   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_4R-0058.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  47   0  16 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0005.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0  16   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0006.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0008.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0014.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0  16  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0021.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0026.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  31   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0029.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  47   0   0   0   0   0  31   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C100C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0035.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C100
+res fst 1: C100C050C200SIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0  16   0  16  31  16   0 
+cmd: lab: C200 res: C100 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0045.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47  16   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0048.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  94   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0   0  47   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/C200/C200_5A-0056.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: C200
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0   0 
+cmd: lab: C200 res: C200 cor: 1 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/CSIL/SIL_0049.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: SILSILSILSILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  78   0  16 
+cmd: lab: SIL res: C200 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/CSIL/SIL_0036.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  47   0  16 
+cmd: lab: SIL res: C001 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/CSIL/SIL_0009.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: SILSILSILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0  16   0   0   0  16  62   0   0 
+cmd: lab: SIL res: C200 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/CSIL/SIL_0020.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: SILSILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: SIL res: C200 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/CSIL/SIL_0043.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: SILSILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16   0   0   0   0   0  78   0   0 
+cmd: lab: SIL res: C001 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/CSIL/SIL_0032.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C200
+res fst 1: SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0  16 
+cmd: lab: SIL res: C200 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/CSIL/SIL_0016.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0   0   0   0   0   0   0  62   0   0 
+cmd: lab: SIL res: C001 cor: 0 acc: 1
+fn: /home/duckhornf/uasr-data/coins/common/sig/Vorversuch6Glas300/CSIL/SIL_0027.wav
+dec_init frm 0
+dec_fin  frm 292
+res fst 0: C001
+res fst 1: SILSIL
+rec wav frm fft fil log dlt mea pca gau mix dec 
+  0   0   0  16  16   0   0   0  16  31   0  16 
+cmd: lab: SIL res: C001 cor: 0 acc: 1
+flst: flists/test_wav.flst cor: 564/646
+time: 56.909s
