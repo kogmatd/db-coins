@@ -4,7 +4,7 @@
    nach $UASR_HOME-data/coins
 
 2. Kopiere oder verlinke
-    von newisland:/data/samba/komtech/public/uasr-data/coins/
+    von newisland.kt.tu-cottbus.de:/data/samba/komtech/public/uasr-data/coins/
     nach $UASR_HOME-data/coins/common/
     folgende Verzeichnisse:
         sig/Versuch2Experiment1
