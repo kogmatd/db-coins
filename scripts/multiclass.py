@@ -68,13 +68,15 @@ if '-nn' in sys.argv: raise SystemExit()
 # run sessions
 
 print("flst [%s]"%(s))
-fdb=ifdb.Fdb(s)
+fdb=ifdb.Fdb()
 for typ in ['sig', 'pfa']:
-    fdb.analyse(typ, eval(typ+'get'))
+    fdb.analyse(typ, eval(typ+'get'), ftrn+ftst)
 
 sfaget(ftrn, ftst, fdb)
 fdb.save()
-ftrn=ftrn.equalcls()
+
+'''Not for highly unbalanced datasets'''
+#ftrn=ftrn.equalcls()
 
 for cls in clsuse:
     for fea in feause:
