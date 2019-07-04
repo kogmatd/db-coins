@@ -43,7 +43,10 @@ def sigget(f):
 
 def pfaget(f):
     if not 'sig' in f: raise ValueError("feaget without sig for: "+f['fn'])
-    fea=ifea.fft(f['sig'],crate=icfg.get('pfa.crate'),wlen=icfg.get('pfa.wlen')).db()
+    if(icfg.get('pfa')=='UPFA') :
+        fea=ifea.pfa_upfa(f['sig'])
+    else :
+        fea=ifea.fft(f['sig'],crate=icfg.get('pfa.crate'),wlen=icfg.get('pfa.wlen')).db()
     ifea.cavg(fea,rat=4,inplace=True)
     fea.sel(axis=len(fea.shape)-1,len=icfg.get('pfa.dim'),inplace=True)
     return fea

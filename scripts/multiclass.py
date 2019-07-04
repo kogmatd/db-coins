@@ -26,7 +26,8 @@ def svmtrn(ftrn,ftst,fea,s,kwargs={}):
 
 def hmmtrn(ftrn,ftst,fea,s,kwargs={}):
     print('hmm start  '+fea+'_'+s)
-    chmm=ihmm.trn(flst=ftrn,fea=fea,its=[3,5,7,9,11,13,7,7],states=9,**kwargs)
+    #chmm=ihmm.trn(flst=ftrn,fea=fea,its=[3],states=9,**kwargs)
+    chmm = ihmm.trn(flst=ftrn, fea=fea, its=[3, 5, 7, 9, 11, 13, 7, 7], states=9, **kwargs)
     nldtrn=ihmm.evlp(chmm,flst=ftrn,fea=fea)
     nldtst=ihmm.evlp(chmm,flst=ftst,fea=fea)
     if icfg.get('exp')=='triclass' or icfg.get('trn.regression')==True:
@@ -38,7 +39,11 @@ def hmmtrn(ftrn,ftst,fea,s,kwargs={}):
 
 def ktftrn(ftrn,ftst,fea,s,kwargs={}):
     print('dnn start  '+s)
-    ktf = iktf.ModKeras()
+    config = dict()
+    config['batchsize'] = 64
+    config['epochs'] = 30
+    config['lay'] = [('relu',600),('batch',), ('dropout',0.5), ('relu',200),('batch',),('dropout',0.5)]
+    ktf = iktf.ModKeras(**config)
     ktf.trn(ftrn, fea)
     restrn=ktf.evl(ftrn, fea, prob=True)
     restst=ktf.evl(ftst, fea, prob=True)
