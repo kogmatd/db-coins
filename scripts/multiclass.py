@@ -36,16 +36,16 @@ def hmmtrn(ftrn,ftst,fea,s,kwargs={}):
         print('hmm finish ' + fea)
         res_trn = np.array(chmm['cls'])[nldtrn.argmin(axis=1)]
         icls.cmp(ftrn, res_trn, 'Training set ' + fea)
-        res_tst=np.array(chmm['cls'])[nldtst.arg, min(axis=1)]
+        res_tst = np.array(chmm['cls'])[nldtst.argmin(axis=1)]
         icls.cmp(ftst, res_tst, 'Test set ' + fea)
     return (chmm, nldtrn, nldtst)
 
 def ktftrn(ftrn,ftst,fea,s,kwargs={}):
     print('dnn start  '+s)
     config = dict()
-    config['batchsize'] = 64
-    config['epochs'] = 30
-    config['lay'] = [('relu',600),('batch',), ('dropout',0.5), ('relu',200),('batch',),('dropout',0.5)]
+    config['batchsize'] = 256
+    config['epochs'] = 50
+    config['lay'] = [('relu',600),('batch',), ('dropout',0.4), ('relu',300),('batch',),('dropout',0.4)]
     ktf = iktf.ModKeras(**config)
     ktf.trn(ftrn, fea)
     restrn=ktf.evl(ftrn, fea, prob=True)
