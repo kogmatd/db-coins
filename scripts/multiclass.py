@@ -93,35 +93,31 @@ for cls in clsuse:
         resfn=os.path.join(dlog,'res_'+cls+'_'+fea+'_'+s+'.npy')
         #if os.path.exists(resfn):
             # continue
-        print('####################',fea,cls,s,'####################')
+        print('####################', fea, cls, s,'####################')
 
-        kwargs=icfg.get('trnargs.%s.%s'%(cls,fea))
+        kwargs = icfg.get('trnargs.%s.%s' %(cls,fea))
 
         if kwargs is None:
-            if cls=='dnn' or cls[:3]=='cnn': continue
-            kwargs={}
+            if cls == 'dnn' or cls[:3] == 'cnn': continue
+            kwargs = {}
         else:
             print('trnargs = '+kwargs)
-            kwargs=eval(kwargs)
-        kwargs['regression']=regression
+            kwargs = eval(kwargs)
 
-        fnctrn=eval(cls[:3]+'trn')
+        kwargs['regression'] = regression
 
-        for i in range(3):
-            (mod,restrn,restst)=fnctrn(ftrn,ftst,fea,s,kwargs)
-            if len(restst)>0:
-                np.save(resfn,restst)
-                np.save(resfn[:-4]+'_trn.npy',restrn)
-                eval('i'+cls[:3]+'.save')(mod,resfn[:-4]+'.model')
-                break
+        fnctrn= eval(cls[:3]+'trn')
 
+        (mod, restrn, restst) = fnctrn(ftrn, ftst, fea, s, kwargs)
 
-
-#job=ijob.Job(maxjob)
-
-#if os.path.exists('stop'): job.cleanup(); raise SystemExit()
-#job.start('run_'+s,run,(s,))
-#job.res('run_'+s)
+        if len(restst) > 0:
+            np.save(resfn[:-4]+'_tst.npy', restst)
+        if len(restrn) > 0:
+            np.save(resfn[:-4]+'_trn.npy', restrn)
+        if mod is not None:
+            modfn = os.path.join(dmod, cls + '_' + fea + '_' + s + '.model')
+            eval('i'+cls[:3]+'.save')(mod, modfn)
+        break
 
 raise SystemExit()
 
