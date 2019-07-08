@@ -26,16 +26,19 @@ def svmtrn(ftrn,ftst,fea,s,kwargs={}):
 
 def hmmtrn(ftrn,ftst,fea,s,kwargs={}):
     print('hmm start  '+fea+'_'+s)
-    #chmm=ihmm.trn(flst=ftrn,fea=fea,its=[3],states=9,**kwargs)
-    chmm = ihmm.trn(flst=ftrn, fea=fea, its=[3, 5, 7, 9, 11, 13, 7, 7], states=9, **kwargs)
-    nldtrn=ihmm.evlp(chmm,flst=ftrn,fea=fea)
-    nldtst=ihmm.evlp(chmm,flst=ftst,fea=fea)
-    if icfg.get('exp')=='triclass' or icfg.get('trn.regression')==True:
+    chmm=ihmm.trn(flst=ftrn, fea=fea, its=[3, 5, 7, 9, 11], states=5, **kwargs)
+    #chmm = ihmm.trn(flst=ftrn, fea=fea, its=[3, 5, 7, 9, 11, 13, 7, 7], states=9, **kwargs)
+    nldtrn=ihmm.evlp(chmm, flst=ftrn, fea=fea)
+    nldtst=ihmm.evlp(chmm, flst=ftst, fea=fea)
+    if icfg.get('exp')=='triclass' or icfg.get('trn.regression') == True:
         print('hmm finish '+fea+'_'+s)
     else:
-        res=np.array(chmm['cls'])[nldtst.argmin(axis=1)]
-        icls.cmp(ftst,res,'hmm finish '+fea)
-    return (chmm,nldtrn,nldtst)
+        print('hmm finish ' + fea)
+        res_trn = np.array(chmm['cls'])[nldtrn.argmin(axis=1)]
+        icls.cmp(ftrn, res_trn, 'Training set ' + fea)
+        res_tst=np.array(chmm['cls'])[nldtst.arg, min(axis=1)]
+        icls.cmp(ftst, res_tst, 'Test set ' + fea)
+    return (chmm, nldtrn, nldtst)
 
 def ktftrn(ftrn,ftst,fea,s,kwargs={}):
     print('dnn start  '+s)
@@ -88,8 +91,8 @@ for cls in clsuse:
         if cls=='hmm' and ftrn[0][fea].shape[-1]>40 :
             continue
         resfn=os.path.join(dlog,'res_'+cls+'_'+fea+'_'+s+'.npy')
-        if os.path.exists(resfn):
-            continue
+        #if os.path.exists(resfn):
+            # continue
         print('####################',fea,cls,s,'####################')
 
         kwargs=icfg.get('trnargs.%s.%s'%(cls,fea))
