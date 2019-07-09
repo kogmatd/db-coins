@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Script for Multiclass Experiments
 
 import os
 import sys
@@ -26,7 +27,7 @@ def svmtrn(ftrn,ftst,fea,s,kwargs={}):
 
 def hmmtrn(ftrn,ftst,fea,s,kwargs={}):
     print('hmm start  '+fea+'_'+s)
-    chmm=ihmm.trn(flst=ftrn, fea=fea, its=[3, 5, 7, 9, 11], states=5, **kwargs)
+    chmm=ihmm.trn(flst=ftrn, fea=fea, its=[3, 5, 7, 5], states=5, **kwargs)
     #chmm = ihmm.trn(flst=ftrn, fea=fea, its=[3, 5, 7, 9, 11, 13, 7, 7], states=9, **kwargs)
     nldtrn=ihmm.evlp(chmm, flst=ftrn, fea=fea)
     nldtst=ihmm.evlp(chmm, flst=ftst, fea=fea)
