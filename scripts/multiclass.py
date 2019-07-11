@@ -22,6 +22,9 @@ def svmtrn(ftrn,ftst,fea,s,kwargs={}):
     csvm=isvm.trn(ftrn, fea, **kwargs)
     restrn=isvm.evl(csvm, ftrn, fea)
     restst=isvm.evl(csvm, ftst, fea)
+    if not regression:
+        icls.cmp(ftrn, restrn, 'svm finish ')
+        icls.cmp(ftst, restst, 'svm finish ')
     print('svm finish '+fea+'_'+s)
     return (csvm,restrn,restst)
 
@@ -40,6 +43,7 @@ def hmmtrn(ftrn,ftst,fea,s,kwargs={}):
         res_tst = np.array(chmm['cls'])[nldtst.argmin(axis=1)]
         icls.cmp(ftst, res_tst, 'Test set ' + fea)
     return (chmm, nldtrn, nldtst)
+
 
 def ktftrn(ftrn,ftst,fea,s,kwargs={}):
     print('dnn start  '+s)
