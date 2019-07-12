@@ -34,13 +34,24 @@ def getsensors():
         if len(line)>0: sen.append(line)
     return sen
 
+def getlabmaps():
+    fn=icfg.getfile('lab.map','info','labmap.txt')
+    if fn is None: return None
+    labmap={}
+    with open(fn) as fd:
+        rows = (re.sub('#.*|\n|\r|^[ \t]+|[ \t]+$', '', line).split('\t') for line in fd)
+        for row in rows :
+            if row[0]!='':
+                labmap[row[0]]=row[1]
+    return labmap
+
 def sigget(f):
     dsig=icfg.getdir('sig')
     sigext='.'+icfg.get('sig.ext','wav')
     sig=isig.load(os.path.join(dsig,f['fn']+sigext)).rmaxis()
     sig.inc=[1/icfg.get('sig.srate')]
     return sig
-
+  
 def pfaget(f):
     if not 'sig' in f: raise ValueError("feaget without sig for: "+f['fn'])
     if(icfg.get('pfa')=='UPFA') :
