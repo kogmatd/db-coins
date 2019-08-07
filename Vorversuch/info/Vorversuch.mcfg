@@ -22,6 +22,7 @@ uasr.sig.srate            = 48000;                                              
 uasr.pfa                  = "UPFA";                                             # Universal primary analysis
 uasr.pfa.wlen             = 400;                                                # Analysis window length [samples]
 uasr.pfa.len              = 512;                                                # Frame length
+uasr.fea.savecompressed   = FALSE
 
 ## Acoustic model settings                                                      # -------------------------------------
 uasr.am.train.split       = 5;                                                  # Number of splits
@@ -37,5 +38,17 @@ uasr.am.train.splitbest   = TRUE;                                               
 uasr.am.model             = "5_0";                                              # Default model for recogn./synthesis
 uasr.am.sil               = -1;                                                 # No silence model
 uasr.am.gbg               = -1;                                                 # No garbage model
+
+uasr.fea.savecompressed=False
+
+#uasr.labmap="{'SIL':'SIL', 'C00[1-5]':'C1','C0[1-5]0':'C2','C[1-2]00':'C3'}"
+
+## HMMs
+uasr.trnargs.hmm.pfa = "{'states':1, 'its': [0]}
+
+## DNNs
+uasr.trnargs.snn.sig = "{'batch_size':32,'max_iter':100,'lay':[('ip',256),('lrelu',),('batch',),('dropout',0.6), ('ip',128),('lrelu',),('batch',),('dropout',0.6)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.1,'monitor': 'val_loss','patience':10, 'stop': True}";
+uasr.trnargs.snn.pfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.6), ('ip',64),('lrelu',),('batch',),('dropout',0.6)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.1,'monitor': 'val_loss','patience':10, 'stop': False}";
+uasr.trnargs.snn.sfa = "{'batch_size':32,'max_iter':100,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.6), ('ip',64),('lrelu',),('batch',),('dropout',0.6)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.1,'monitor': 'val_loss','patience':10, 'stop': False}";
 
 ## EOF
