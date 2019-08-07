@@ -126,12 +126,12 @@ def snnopt(ftrn, ftst, fea, s, kwargs):
         return history, model
 
     # then we can go ahead and set the parameter space
-    p = {'first_neuron': [256, 512, 1024],
-         'hidden_neuron': [32, 64, 128],
-         'hidden_layers': [0, 1, 2],
-         'batch_size': [64, 128, 256],
-         'epochs': [10],
-         'dropout': [0.25, 0.75],
+    p = {'first_neuron': [8, 16, 32, 256, 512],
+         'hidden_neuron': [8, 16, 32, 64],
+         'hidden_layers': [0, 1],
+         'batch_size': [32,256],
+         'epochs': [100],
+         'dropout': [0.4, 0.6],
          'kernel_initializer': ['normal'],
          'optimizer': [Adam],
          'losses': [categorical_crossentropy],
