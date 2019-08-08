@@ -64,8 +64,8 @@ uasr.trnargs.hmm.pfa = "{'states':1, 'its': [0]}
 #uasr.trnargs.svm.sfa = "{'C':1,'tol':0.1}";
 
 ## DNNs
-uasr.trnargs.snn.sig = "{'batch_size':32,'max_iter':200,'lay':[('ip',256),('lrelu',),('batch',),('dropout',0.6), ('ip',128),('lrelu',),('batch',),('dropout',0.6)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':5, 'stop': True}";
-uasr.trnargs.snn.pfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.7), ('ip',64),('lrelu',),('batch',),('dropout',0.7)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':5, 'stop': True}";
-uasr.trnargs.snn.sfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.7), ('ip',64),('lrelu',),('batch',),('dropout',0.7)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':5, 'stop': True}";
+uasr.trnargs.snn.sig = "{'batch_size':32,'max_iter':200,'lay':[('ip',256),('lrelu',),('batch',),('dropout',0.6), ('ip',128),('lrelu',),('batch',),('dropout',0.6)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
+uasr.trnargs.snn.pfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.7), ('ip',64),('lrelu',),('batch',),('dropout',0.7)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
+uasr.trnargs.snn.sfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.7), ('ip',64),('lrelu',),('batch',),('dropout',0.7)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
 
 ## EOF
