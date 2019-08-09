@@ -52,4 +52,10 @@ uasr.trnargs.hmm.pfa = "{'states':1, 'its': [0]}
 uasr.trnargs.snn.sig = "{'batch_size':32,'max_iter':200,'lay':[('ip',256),('lrelu',),('batch',),('dropout',0.6), ('ip',128),('lrelu',),('batch',),('dropout',0.6)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
 uasr.trnargs.snn.pfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.7), ('ip',64),('lrelu',),('batch',),('dropout',0.7)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
 uasr.trnargs.snn.sfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.7), ('ip',64),('lrelu',),('batch',),('dropout',0.7)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
+
+## CNNs
+uasr.trnargs.cnn.sfa = "{'batch_size':32,'max_iter':200,'lay':[('conv2d',32,[5,5],[2,2]),('elu',),('batch',),('dropout',0.1),('pool',[2,2],[2,2]),('conv2d',32,[5,5],[2,2]),('elu',),('batch',),('dropout',0.1),('pool',[2,2],[2,2]),('flatten',),('ip',90),('relu',),('dropout',0.7)],'base_lr':0.0005, 'optimizer':'adadelta','val_split':0.2,'monitor': 'val_loss','patience':15, 'stop': True}";
+uasr.trnargs.cnn.pfa = "{'batch_size':32,'max_iter':200,'lay':[('conv2d',32,[5,5],[2,2]),('elu',),('batch',),('dropout',0.1),('pool',[2,2],[2,2]),('conv2d',32,[5,5],[2,2]),('elu',),('batch',),('dropout',0.1),('pool',[2,2],[2,2]),('flatten',),('ip',90),('relu',),('dropout',0.7)],'base_lr':0.0005, 'optimizer':'adadelta','val_split':0.2,'monitor': 'val_loss','patience':15, 'stop': True}";
+uasr.trnargs.cnn.sig = "{'batch_size':32,'max_iter':200,'lay':[('conv1d',32,64,32),('elu',),('batch',),('dropout',0.1),('pool',2,2),('conv1d',32,15,7),('elu',),('batch',),('dropout',0.1),('pool',2,2),('flatten',),('ip',90),('relu',),('dropout',0.5)],'base_lr':0.0005, 'optimizer':'adadelta','val_split':0.2,'monitor': 'val_loss','patience':25, 'stop': True}";
+
 ## EOF
