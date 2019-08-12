@@ -1,0 +1,14 @@
+
+pfa  cnn [  1] best  95.7%/coins mix  95.7% MAX-ER:  20.0% (C050=>C020)
+pfa  hmm [  1] best  90.7%/coins mix  90.7% MAX-ER:  24.0% (C010=>C005 C050=>C020)
+pfa  snn [  1] best  90.2%/coins mix  90.2% MAX-ER:  26.0% (C050=>C020)
+pfa  svm [  1] best  84.9%/coins mix  84.9% MAX-ER:  30.0% (C010=>C005)
+
+sfa  cnn [  1] best  95.2%/coins mix  95.2% MAX-ER:  14.3% (C020=>C050)
+sfa  hmm [  1] best  92.9%/coins mix  92.9% MAX-ER:  16.0% (C010=>C005)
+sfa  snn [  1] best  94.0%/coins mix  94.0% MAX-ER:  18.4% (C020=>C050)
+sfa  svm [  1] best  63.5%/coins mix  63.5% MAX-ER:  28.6% (C200=>C100)
+
+sig  cnn [  1] best  82.9%/coins mix  82.9% MAX-ER:  46.0% (C010=>C005)
+sig  snn [  1] best  28.0%/coins mix  28.0% MAX-ER:  96.0% (C010=>C050)
+sig  svm [  1] best  76.3%/coins mix  76.3% MAX-ER:  30.0% (C010=>C005)
