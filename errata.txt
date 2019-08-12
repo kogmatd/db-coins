@@ -1,0 +1,4 @@
+
+Versuch3Experiment2/C010/C010_2D-0015 is clipped and useless
+
+Versuch3 - missing class "C100" in the test data
