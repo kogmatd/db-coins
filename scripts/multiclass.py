@@ -1,17 +1,19 @@
 #!/usr/bin/python3
 
+import numpy as np
+import random as rn
+np.random.seed(666)
+rn.seed(666)
+
 import sys
 import os
 sys.path.append(os.environ['UASR_HOME']+'-py')
 import ifdb
-import iktf
-import ihmm
-import isvm
 from ihelp import *
 
 
 def svmtrn(ftrn, ftst, fea, s, args):
-
+    import isvm
     print('svm start  '+fea+'_'+s)
     csvm = isvm.trn(ftrn, fea, **args)
     restrn = isvm.evlp(csvm, ftrn, fea)
@@ -30,10 +32,17 @@ def svmtrn(ftrn, ftst, fea, s, args):
         icls.cmp(ftrn, restrnc, 'SVM Training ' + fea + '_' + s)
         icls.cmp(ftst, reststc, 'SVM Testing ' + fea + '_' + s)
     print('svm finish '+fea+'_'+s)
-    return csvm, restrn, restst
 
+    if csvm is not None:
+        modfn = os.path.join(dmod, 'svm' + '_' + fea + '_' + s)
+        isvm.save(csvm, modfn)
+
+    del sys.modules["isvm"]
+    del isvm
+    return restrn, restst
 
 def hmmtrn(ftrn, ftst, fea, s, args):
+    import ihmm
     print('hmm start  '+fea+'_'+s)
     chmm = ihmm.trn(flst=ftrn, fea=fea, **args, ftst=ftst)
     nldtrn = ihmm.evlp(chmm, flst=ftrn, fea=fea)
@@ -50,11 +59,20 @@ def hmmtrn(ftrn, ftst, fea, s, args):
         icls.cmp(ftrn, restrn, 'HMM Training '+fea+'_'+s)
         restst = np.array(chmm['cls'])[nldtst.argmin(axis=1)]
         icls.cmp(ftst, restst, 'HMM Testing ' + fea + '_' + s)
-    return chmm, nldtrn, nldtst
+
+    if chmm is not None:
+        modfn = os.path.join(dmod, 'hmm' + '_' + fea + '_' + s + '.model')
+        ihmm.save(chmm, modfn)
+
+    del sys.modules["ihmm"]
+    del ihmm
+    return nldtrn, nldtst
 
 
 def ktftrn(ftrn, ftst, fea, s, args):
-    print('Keras TF start  ' + s)
+    import iktf
+    nncls = args['type']
+    print('Keras TF start  ' + nncls + '_' + fea + '_' + s)
     ktf = iktf.ModKeras(**args)
     ktf.trn(ftrn, fea)
     restrn, trncls = ktf.evl(ftrn, fea, prob=True)
@@ -71,8 +89,17 @@ def ktftrn(ftrn, ftst, fea, s, args):
         icls.report(ftrn, trncls, verbose=True)
         icls.cmp(ftst, tstcls, 'Keras TF Testing ' + fea + '_' + s)
         icls.report(ftst, tstcls, verbose=True)
+
+    if ktf.mod is not None:
+        modfn = os.path.join(dmod, nncls + '_' + fea + '_' + s + '.model')
+        iktf.save(ktf.mod, modfn)
+
     print('Keras TF stop  ' + s)
-    return ktf.mod, restrn, restst
+    mod = ktf.mod
+    del ktf
+    del sys.modules["iktf"]
+    del iktf
+    return restrn, restst
 
 
 snntrn = ktftrn
@@ -80,10 +107,8 @@ aectrn = ktftrn
 rnntrn = ktftrn
 cnntrn = ktftrn
 
-isnn = iktf
-iaec = iktf
-irnn = iktf
-icnn = iktf
+if os.environ.get("PYTHONHASHSEED") != "0":
+    raise Exception("You must set PYTHONHASHSEED=0 before starting the script to get reproducible results.")
 
 if len(sys.argv) < 2:
     raise ValueError("Usage: "+sys.argv[0]+" CFG [-n]")
@@ -152,14 +177,13 @@ def run_sen(s):
         ftrns = ftrns.equalcls()
     if '-n' in sys.argv:
         return
-
     for cls in clsuse:
         for fea in feause:
             if cls == 'hmm' and ftrns[0][fea].shape[-1] > 40:
                 continue
             resfn = os.path.join(dlog, 'res_'+cls+'_'+fea+'_'+s+'.npy')
 
-            print('####################', fea, cls, s, '####################')
+            #print('####################', fea, cls, s, '####################')
             kwargs = icfg.get('trnargs.%s.%s' % (cls, fea))
             if kwargs is None:
                 kwargs = dict()
@@ -174,21 +198,19 @@ def run_sen(s):
                 print('trnargs = '+kwargs)
                 kwargs = eval(kwargs)
             kwargs['regression'] = regression
+
             if cls not in ['hmm', 'svm']:
                 kwargs['type'] = cls
+
             fnctrn = eval(cls[:3]+'trn')
-            for i in range(3):
-                (mod, restrn, restst) = fnctrn(ftrns, ftsts, fea, s, kwargs)
 
-                if len(restst) > 0:
-                    np.save(resfn[:-4] + '_tst.npy', restst)
-                if len(restrn) > 0:
-                    np.save(resfn[:-4] + '_trn.npy', restrn)
-                if mod is not None:
-                    modfn = os.path.join(dmod, cls + '_' + fea + '_' + s + '.model')
-                    eval('i' + cls[:3] + '.save')(mod, modfn)
-                break
+            restrn, restst = fnctrn(ftrns, ftsts, fea, s, kwargs)
 
+
+            if len(restst) > 0:
+                np.save(resfn[:-4] + '_tst.npy', restst)
+            if len(restrn) > 0:
+                np.save(resfn[:-4] + '_trn.npy', restrn)
 
 if senuse is None:
     run_sen(senuse)
