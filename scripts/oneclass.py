@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 
+import numpy as np
+import random as rn
+np.random.seed(666)
+rn.seed(666)
+
 import sys
 import os
 sys.path.append(os.environ['UASR_HOME']+'-py')
-import isvm
-import ihmm
-import iktf
 import ijob
 import ifdb
 from ihelp import *
@@ -19,34 +21,61 @@ def prtres(prob, flst):
 
 
 def svmtrn(ftrn, ftst, fea, s, args):
+    import isvm
     print('svm start  '+s)
     csvm = isvm.trn(ftrn, fea, **args)
     prob = isvm.evlp(csvm, ftst, fea)[:, 0]
     print('svm finish '+s+' '+prtres(prob, ftst))
+
+    if csvm is not None:
+        modfn = os.path.join(dmod, 'oc_svm' + '_' + fea + '_' + s)
+        isvm.save(csvm, modfn)
+
+    del sys.modules["isvm"]
+    del isvm
     return prob
 
 
 def hmmtrn(ftrn, ftst, fea, s, args):
+    import ihmm
     print('hmm start  '+s)
     chmm = ihmm.trn(flst=ftrn, fea=fea, **args)
     nld = ihmm.evlp(chmm, flst=ftst, fea=fea)
     prob = -nld.take(0, -1)/np.array([ft[fea].shape[0] for ft in ftst])
     print('hmm finish '+s+' '+prtres(prob, ftst))
+
+    if chmm is not None:
+        modfn = os.path.join(dmod, 'oc_hmm' + '_' + fea + '_' + s + '.model')
+        ihmm.save(chmm, modfn)
+
+    del sys.modules["ihmm"]
+    del ihmm
+
     return np.concatenate((prob.reshape(-1, 1), nld), axis=1)
 
 
 def ktftrn(ftrn, ftst, fea, s, args):
-    print('dnn start  '+s)
+    import iktf
+    nncls = args['type']
+    print('Keras TF start ' + nncls + '_' + fea + '_' + s)
     ktf = iktf.ModKeras(**args)
     ktf.trn(ftrn, fea)
     prob, bc = ktf.evl(ftst, fea, prob=True)
     # probability of class 0
     if 'AEC' not in bc:
         prob = 1-prob[:, 0]
-        print('ktf stop  '+s+' '+prtres(prob, ftst))
     else:
         prob = 1 - prob
-        print('ktf stop  ' + s + ' ' + prtres(prob, ftst))
+
+    if ktf.mod is not None:
+        modfn = os.path.join(dmod, 'oc_' + nncls + '_' + fea + '_' + s + '.model')
+        iktf.save(ktf.mod, modfn)
+
+    print('Keras TF stop ' + nncls + '_' + fea + '_' + s)
+    del ktf
+    del sys.modules["iktf"]
+    del iktf
+
     return prob
 
 
@@ -54,11 +83,6 @@ snntrn = ktftrn
 aectrn = ktftrn
 rnntrn = ktftrn
 cnntrn = ktftrn
-
-isnn = iktf
-iaec = iktf
-irnn = iktf
-icnn = iktf
 
 if os.environ.get("PYTHONHASHSEED") != "0":
     raise Exception("You must set PYTHONHASHSEED=0 before starting the script to get reproducible results.")
@@ -168,7 +192,10 @@ for cls in clsuse:
         else:
             print('trnargs = ' + kwargs)
             kwargs = eval(kwargs)
+
+        if cls not in ['hmm', 'svm']:
             kwargs['type'] = cls
+
         fnctrn = eval(cls+'trn')
         if len(senuse) == 1 or maxjobs == 1 or cls in ['snn', 'cnn', 'aec', 'rnn']:
             probability = [fnctrn(ftrns[s], ftsts[s], feature, s, kwargs) for s in senuse]

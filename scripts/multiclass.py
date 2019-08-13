@@ -94,7 +94,7 @@ def ktftrn(ftrn, ftst, fea, s, args):
         modfn = os.path.join(dmod, nncls + '_' + fea + '_' + s + '.model')
         iktf.save(ktf.mod, modfn)
 
-    print('Keras TF stop  ' + s)
+    print('Keras TF stop ' + nncls + '_' + fea + '_' + s)
     mod = ktf.mod
     del ktf
     del sys.modules["iktf"]
