@@ -60,6 +60,8 @@ iaec = iktf
 irnn = iktf
 icnn = iktf
 
+if os.environ.get("PYTHONHASHSEED") != "0":
+    raise Exception("You must set PYTHONHASHSEED=0 before starting the script to get reproducible results.")
 
 if len(sys.argv) < 2:
     raise ValueError("Usage: "+sys.argv[0]+" CFG [-n]")
@@ -85,7 +87,7 @@ sen = getsensors()
 
 senuse = sen
 feause = ['pfa', 'sfa', 'sig']
-clsuse = ['hmm', 'svm', 'ktf']
+clsuse = ['hmm', 'svm', 'snn', 'cnn']
 if not icfg.get('senuse') is None:
     senuse = icfg.get('senuse').split(',')
 if not icfg.get('feause') is None:
@@ -155,7 +157,7 @@ for cls in clsuse:
 
         kwargs = icfg.get('trnargs.%s.%s' % (cls, feature))
         if kwargs is None:
-            kwargs = {}
+            kwargs = dict()
             if cls == 'hmm':
                 split, its = getsplits()
                 classes, states = getstates(labmap)
