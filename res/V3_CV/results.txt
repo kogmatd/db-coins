@@ -1,0 +1,368 @@
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+pfa  cnn [  1] MAF BAR:  96.0%/coins UAR:  97.6% BAR: 96.03% (+-) 0.96%  MAX-ER:  13.3% (C020=>C050)
+
+best:
+	accuracy:	0.9605 (0.0270)
+	f1-score:	0.9616 (0.0259)
+	precision:	0.9657 (0.0244)
+	recall:		0.9605 (0.0270)
+
+mix:
+
+	MCC: 0.9719:
+ 
+              precision    recall  f1-score   support
+
+        C001       1.00      1.00      1.00       240
+        C002       1.00      1.00      1.00       300
+        C005       0.96      0.98      0.97       299
+        C010       0.97      0.93      0.95       179
+        C020       0.88      0.87      0.87        60
+        C050       0.93      0.93      0.93       120
+        C100       0.94      0.98      0.96        60
+        C200       1.00      0.95      0.97        59
+         SIL       1.00      1.00      1.00       265
+
+    accuracy                           0.98      1582
+   macro avg       0.96      0.96      0.96      1582
+weighted avg       0.98      0.98      0.98      1582
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+pfa  hmm [  1] MAF BAR:  95.3%/coins UAR:  96.0% BAR: 95.33% (+-) 1.04%  MAX-ER:  13.3% (C020=>C050)
+
+best:
+	accuracy:	0.9533 (0.0212)
+	f1-score:	0.9501 (0.0195)
+	precision:	0.9480 (0.0179)
+	recall:		0.9533 (0.0212)
+
+mix:
+
+	MCC: 0.9534:
+ 
+              precision    recall  f1-score   support
+
+        C001       1.00      0.99      0.99       240
+        C002       1.00      1.00      1.00       300
+        C005       0.94      0.93      0.93       299
+        C010       0.88      0.90      0.89       179
+        C020       0.81      0.87      0.84        60
+        C050       0.93      0.90      0.92       120
+        C100       0.97      1.00      0.98        60
+        C200       1.00      1.00      1.00        59
+         SIL       1.00      1.00      1.00       265
+
+    accuracy                           0.96      1582
+   macro avg       0.95      0.95      0.95      1582
+weighted avg       0.96      0.96      0.96      1582
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+pfa  snn [  1] MAF BAR:  89.9%/coins UAR:  93.6% BAR: 89.89% (+-) 1.49%  MAX-ER:  35.0% (C020=>C050)
+
+best:
+	accuracy:	0.8991 (0.0330)
+	f1-score:	0.9013 (0.0366)
+	precision:	0.9120 (0.0406)
+	recall:		0.8991 (0.0330)
+
+mix:
+
+	MCC: 0.9253:
+ 
+              precision    recall  f1-score   support
+
+        C001       0.99      0.99      0.99       240
+        C002       1.00      1.00      1.00       300
+        C005       0.90      0.92      0.91       299
+        C010       0.87      0.84      0.85       179
+        C020       0.82      0.62      0.70        60
+        C050       0.82      0.89      0.86       120
+        C100       0.90      0.87      0.88        60
+        C200       0.88      0.97      0.92        59
+         SIL       1.00      1.00      1.00       265
+
+    accuracy                           0.94      1582
+   macro avg       0.91      0.90      0.90      1582
+weighted avg       0.94      0.94      0.94      1582
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+pfa  svm [  1] MAF BAR:  73.9%/coins UAR:  84.1% BAR: 76.69% (+-) 2.08%  MAX-ER:  38.5% (C010=>C005)
+
+best:
+	accuracy:	0.7394 (0.0256)
+	f1-score:	0.7474 (0.0336)
+	precision:	0.7914 (0.0311)
+	recall:		0.7394 (0.0256)
+
+mix:
+
+	MCC: 0.8137:
+ 
+              precision    recall  f1-score   support
+
+        C001       0.91      0.94      0.93       240
+        C002       0.94      0.91      0.93       300
+        C005       0.76      0.86      0.81       299
+        C010       0.73      0.60      0.66       179
+        C020       0.70      0.62      0.65        60
+        C050       0.72      0.80      0.76       120
+        C100       0.57      0.50      0.53        60
+        C200       0.69      0.68      0.68        59
+         SIL       1.00      1.00      1.00       265
+
+    accuracy                           0.84      1582
+   macro avg       0.78      0.77      0.77      1582
+weighted avg       0.84      0.84      0.84      1582
+
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+sfa  cnn [  1] MAF BAR:  94.6%/coins UAR:  97.1% BAR: 94.55% (+-) 1.12%  MAX-ER:  18.3% (C020=>C050)
+
+best:
+	accuracy:	0.9456 (0.0331)
+	f1-score:	0.9490 (0.0272)
+	precision:	0.9596 (0.0153)
+	recall:		0.9456 (0.0331)
+
+mix:
+
+	MCC: 0.9660:
+ 
+              precision    recall  f1-score   support
+
+        C001       1.00      0.99      1.00       240
+        C002       1.00      1.00      1.00       300
+        C005       0.96      0.98      0.97       299
+        C010       0.97      0.95      0.96       179
+        C020       0.91      0.82      0.86        60
+        C050       0.86      0.94      0.90       120
+        C100       0.93      0.87      0.90        60
+        C200       0.98      0.97      0.97        59
+         SIL       1.00      1.00      1.00       265
+
+    accuracy                           0.97      1582
+   macro avg       0.96      0.95      0.95      1582
+weighted avg       0.97      0.97      0.97      1582
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+sfa  hmm [  1] MAF BAR:  83.7%/coins UAR:  91.4% BAR: 83.64% (+-) 1.82%  MAX-ER:  56.7% (C020=>C050)
+
+best:
+	accuracy:	0.8367 (0.0411)
+	f1-score:	0.8557 (0.0396)
+	precision:	0.9295 (0.0136)
+	recall:		0.8367 (0.0411)
+
+mix:
+
+	MCC: 0.9013:
+ 
+              precision    recall  f1-score   support
+
+        C001       1.00      1.00      1.00       240
+        C002       0.99      1.00      0.99       300
+        C005       0.83      0.98      0.90       299
+        C010       0.96      0.72      0.82       179
+        C020       1.00      0.43      0.60        60
+        C050       0.65      0.99      0.79       120
+        C100       0.93      0.62      0.74        60
+        C200       1.00      0.83      0.91        59
+         SIL       1.00      0.95      0.98       265
+
+    accuracy                           0.91      1582
+   macro avg       0.93      0.84      0.86      1582
+weighted avg       0.93      0.91      0.91      1582
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+sfa  snn [  1] MAF BAR:  92.1%/coins UAR:  95.6% BAR: 92.13% (+-) 1.33%  MAX-ER:  23.3% (C020=>C050)
+
+best:
+	accuracy:	0.9213 (0.0178)
+	f1-score:	0.9285 (0.0190)
+	precision:	0.9445 (0.0154)
+	recall:		0.9213 (0.0178)
+
+mix:
+
+	MCC: 0.9490:
+ 
+              precision    recall  f1-score   support
+
+        C001       0.99      0.99      0.99       240
+        C002       0.99      0.99      0.99       300
+        C005       0.94      0.96      0.95       299
+        C010       0.93      0.92      0.93       179
+        C020       0.91      0.70      0.79        60
+        C050       0.84      0.95      0.89       120
+        C100       0.88      0.88      0.88        60
+        C200       0.98      0.90      0.94        59
+         SIL       1.00      1.00      1.00       265
+
+    accuracy                           0.96      1582
+   macro avg       0.94      0.92      0.93      1582
+weighted avg       0.96      0.96      0.96      1582
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+sfa  svm [  1] MAF BAR:  44.2%/coins UAR:  61.4% BAR: 50.61% (+-) 2.46%  MAX-ER:  45.0% (C100=>C050)
+
+best:
+	accuracy:	0.4422 (0.0295)
+	f1-score:	0.4896 (0.0621)
+	precision:	0.6549 (0.0647)
+	recall:		0.4788 (0.0621)
+
+mix:
+
+	MCC: 0.5456:
+ 
+              precision    recall  f1-score   support
+
+        C001       0.69      0.77      0.73       240
+        C002       0.56      0.59      0.57       300
+        C005       0.47      0.57      0.52       299
+        C010       0.56      0.36      0.44       179
+        C020       0.36      0.15      0.21        60
+        C050       0.48      0.56      0.52       120
+        C100       0.25      0.15      0.19        60
+        C200       0.44      0.41      0.42        59
+         SIL       1.00      1.00      1.00       265
+
+    accuracy                           0.61      1582
+   macro avg       0.54      0.51      0.51      1582
+weighted avg       0.61      0.61      0.60      1582
+
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+sig  cnn [  1] MAF BAR:  78.0%/coins UAR:  87.0% BAR: 77.96% (+-) 2.04%  MAX-ER:  40.0% (C100=>C050)
+
+best:
+	accuracy:	0.7803 (0.0807)
+	f1-score:	0.7763 (0.0802)
+	precision:	0.8338 (0.0490)
+	recall:		0.7803 (0.0807)
+
+mix:
+
+	MCC: 0.8498:
+ 
+              precision    recall  f1-score   support
+
+        C001       0.92      0.95      0.94       240
+        C002       0.99      0.99      0.99       300
+        C005       0.86      0.80      0.83       299
+        C010       0.82      0.78      0.80       179
+        C020       0.87      0.68      0.77        60
+        C050       0.61      0.99      0.76       120
+        C100       0.61      0.45      0.52        60
+        C200       0.63      0.37      0.47        59
+         SIL       1.00      1.00      1.00       265
+
+    accuracy                           0.87      1582
+   macro avg       0.81      0.78      0.78      1582
+weighted avg       0.88      0.87      0.87      1582
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+sig  snn [  1] MAF BAR:  34.3%/coins UAR:  40.5% BAR: 34.32% (+-) 2.34%  MAX-ER:  54.2% (C200=>C050)
+
+best:
+	accuracy:	0.3430 (0.0238)
+	f1-score:	0.3273 (0.0146)
+	precision:	0.4629 (0.0735)
+	recall:		0.3677 (0.0177)
+
+mix:
+
+	MCC: 0.3108:
+ 
+              precision    recall  f1-score   support
+
+        C001       0.45      0.06      0.10       240
+        C002       0.40      0.29      0.34       300
+        C005       0.40      0.45      0.42       299
+        C010       0.28      0.24      0.26       179
+        C020       0.23      0.17      0.19        60
+        C050       0.31      0.63      0.42       120
+        C100       0.53      0.15      0.23        60
+        C200       0.54      0.12      0.19        59
+         SIL       0.49      0.97      0.65       265
+
+    accuracy                           0.41      1582
+   macro avg       0.40      0.34      0.31      1582
+weighted avg       0.41      0.41      0.35      1582
+
+MAF-BAR	- Maximum Average Fold Balanced Accuracy Rate of all sensors
+UAR	- Unweighted Accuracy Rate all folds after averaging the prob across sensors
+BAR	- Balanced Accuracy Rate all folds after averaging the prob across sensors
+
+
+sig  svm [  1] MAF BAR:  69.2%/coins UAR:  73.7% BAR: 68.73% (+-) 2.28%  MAX-ER:  55.0% (C100=>C050)
+
+best:
+	accuracy:	0.6922 (0.0481)
+	f1-score:	0.7042 (0.0448)
+	precision:	0.7354 (0.0408)
+	recall:		0.6922 (0.0481)
+
+mix:
+
+	MCC: 0.6914:
+ 
+              precision    recall  f1-score   support
+
+        C001       0.68      0.65      0.67       240
+        C002       0.64      0.70      0.67       300
+        C005       0.73      0.75      0.74       299
+        C010       0.74      0.66      0.70       179
+        C020       0.89      0.70      0.79        60
+        C050       0.64      0.75      0.69       120
+        C100       0.40      0.28      0.33        60
+        C200       0.80      0.68      0.73        59
+         SIL       0.96      1.00      0.98       265
+
+    accuracy                           0.74      1582
+   macro avg       0.72      0.69      0.70      1582
+weighted avg       0.74      0.74      0.73      1582
+
+
+
+Process finished with exit code 0
