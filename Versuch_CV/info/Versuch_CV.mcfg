@@ -1,0 +1,65 @@
+## UASR configuration file
+## - MiSIS bottles database: Configuration file for experiment 004_A
+##
+## Usage: 
+##   dlabpro $UASR_HOME/scripts/dlabpro/FEA.xtp ana Versuch004_A.mcfg
+##   dlabpro $UASR_HOME/scripts/dlabpro/HMM.xtp trn Versuch004_A.mcfg
+##   dlabpro $UASR_HOME/scripts/dlabpro/REC_PACKDATA.xtp rec Versuch004_A.mcfg -Pout=<outdir> -Pouttyp=<type>
+##
+## Arguments:
+##   outdir - output folder of REC_PACKDATA.xtp
+##   type   - output file type of REC_PACKDATA.xtp: F, R (default), or S
+##
+## For details, see documentations of FEA.xtp, HMM.xtp, and REC_PACKDATA.xtp at 
+## https://rawgit.com/matthias-wolff/UASR/master/manual/index.html
+
+## Database settings                                                            # -------------------------------------
+uasr.db                   = "coins";                                            # Database name
+uasr.exp                  = "Versuch_CV";                                         # Experiment name
+
+## Signal, preprocessing and feature settings                                   # -------------------------------------
+uasr.sig.srate            = 48000;                                              # Signal sampling rate [Hz]
+uasr.pfa                  = "UPFA";                                             # Universal primary analysis
+uasr.pfa.wlen             = 400;                                                # Analysis window length [samples]
+uasr.pfa.len              = 512;                                                # Frame length
+
+## Acoustic model settings                                                      # -------------------------------------
+uasr.am.train.split       = 5;                                                  # Number of splits
+uasr.am.train.ite0        = 3;                                                  # Number of iterations at split 0
+uasr.am.train.ite1        = 5;                                                  # Number of iterations at split 1
+uasr.am.train.ite2        = 7;                                                  # Number of iterations at split 2
+uasr.am.train.ite3        = 9;                                                  # Number of iterations at split 3
+uasr.am.train.ite4        = 11;                                                 # Number of iterations at split 4
+uasr.am.train.ite5        = 13;                                                 # Number of iterations at split 5
+uasr.am.train.ite6        = 7;                                                  # Number of iterations at split 6
+uasr.am.train.ite7        = 7;                                                  # Number of iterations at split 7
+uasr.am.train.splitbest   = TRUE;                                               # Use the best HMM for split
+uasr.am.model             = "5_0";                                              # Default model for recogn./synthesis
+uasr.am.sil               = -1;                                                 # No silence model
+uasr.am.gbg               = -1;                                                 # No garbage model
+
+uasr.trn.folds = 5
+
+uasr.flist.all = "D"
+uasr.flist.cv = "ABEFNR"
+
+## HMMs
+uasr.trnargs.hmm.pfa = "{'states':1, 'its': [0]}
+
+## SVMs
+#uasr.trnargs.svm.sig = "{'C':1,'tol':0.1}";
+#uasr.trnargs.svm.pfa = "{'C':1,'tol':0.1}";
+#uasr.trnargs.svm.sfa = "{'C':1,'tol':0.1}";
+
+## DNNs
+uasr.trnargs.snn.sig = "{'batch_size':32,'max_iter':200,'lay':[('ip',256),('lrelu',),('batch',),('dropout',0.6), ('ip',128),('lrelu',),('batch',),('dropout',0.6)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
+uasr.trnargs.snn.pfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',256),('lrelu',),('batch',),('dropout',0.7), ('ip',128),('lrelu',),('batch',),('dropout',0.7)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
+uasr.trnargs.snn.sfa = "{'batch_size':32,'max_iter':200,'lay':[('ip',128),('lrelu',),('batch',),('dropout',0.7), ('ip',64),('lrelu',),('batch',),('dropout',0.7)],'base_lr':0.0005,'optimizer':'adagrad','val_split':0.2,'monitor': 'val_loss','patience':10, 'stop': True}";
+
+## CNNs
+uasr.trnargs.cnn.sfa = "{'batch_size':32,'max_iter':200,'lay':[('conv2d',32,[5,5],[2,2]),('elu',),('batch',),('dropout',0.1),('pool',[2,2],[2,2]),('conv2d',32,[5,5],[2,2]),('elu',),('batch',),('dropout',0.1),('pool',[2,2],[2,2]),('flatten',),('ip',90),('relu',),('dropout',0.7)],'base_lr':0.0005, 'optimizer':'adadelta','val_split':0.2,'monitor': 'val_loss','patience':15, 'stop': True}";
+uasr.trnargs.cnn.pfa = "{'batch_size':32,'max_iter':200,'lay':[('conv2d',32,[5,5],[2,2]),('elu',),('batch',),('dropout',0.1),('pool',[2,2],[2,2]),('conv2d',32,[5,5],[2,2]),('elu',),('batch',),('dropout',0.1),('pool',[2,2],[2,2]),('flatten',),('ip',90),('relu',),('dropout',0.7)],'base_lr':0.0005, 'optimizer':'adadelta','val_split':0.2,'monitor': 'val_loss','patience':15, 'stop': True}";
+#uasr.trnargs.cnn.sig = "{'batch_size':32,'max_iter':200,'lay':[('conv1d',32,64,32),('elu',),('batch',),('dropout',0.1),('pool',2,2),('conv1d',32,15,7),('elu',),('batch',),('dropout',0.1),('pool',2,2),('flatten',),('ip',90),('relu',),('dropout',0.5)],'base_lr':0.0005, 'optimizer':'adadelta','val_split':0.2,'monitor': 'val_loss','patience':25, 'stop': True}";
+uasr.trnargs.cnn.sig = "{'batch_size':64,'max_iter':200,'lay':[('conv1d',16,64,2),('relu',),('batch',),('pool',8,8),('conv1d',32,32,2),('relu',),('batch',),('pool',8,8),('conv1d',64,16,8),('relu',),('batch',),('conv1d',128,8,2),('relu',),('batch',),('conv1d',256,4,2),('relu',),('batch',),('pool',4,4),('flatten',),('ip',64),('relu',),('dropout',0.25),('ip',32),('relu',),('dropout',0.25)],'base_lr':0.0005, 'optimizer':'adadelta','val_split':0.2,'monitor': 'val_loss','patience':15, 'stop': True}";
+
+## EOF
