@@ -70,15 +70,59 @@ coins                                        # Wurzelverzeichnis der Datenbasis
 |   |   +---all.flst                         # Filelist für alle dem Experiment angehörigen Dateien
 |   |   +---test.flst                        # zum Test gehörige Dateien
 |   |   \---train.flst                       # Dateien für Training, dürfen keine Test-Dateien enthalten
-|   +---info                                 # Konfigurationsdateien fuer HMM-Training sowie LIVE-Erkennung
+|   +---info                                 # Konfigurationsdateien fuer HMM-Training
 |   |   +---classes.txt
-|   |   +---HMM-trn.cfg
-|   |   +---REC_PACKDATA.cfg
-|   |   \---recognizer.cfg
+|   |   \---Versuch1.mcfg
 |   +---log                                  # log-Dateien des entsprechenden Experimentes
 |   \---model                                # Modelle des entsprechenden Experimentes
 +---Versuch2                                 # weitere Versuche
+|   +---flists                               # Verzeichnis mit den Filelisten fuers Training des aktuellen Versuchs
+|   |   +---all.flst                         # Filelist für alle dem Experiment angehörigen Dateien
+|   |   +---test.flst                        # zum Test gehörige Dateien
+|   |   \---train.flst                       # Dateien für Training, dürfen keine Test-Dateien enthalten
+|   +---info                                 # Konfigurationsdateien fuer HMM-Training
+|   |   +---classes.txt
+|   |   \---Versuch2.mcfg
+|   +---log                                  # log-Dateien des entsprechenden Experimentes
+|   \---model                                # Modelle des entsprechenden Experimentes
 +---Versuch3
+|   +---flists                               # Verzeichnis mit den Filelisten fuers Training des aktuellen Versuchs
+|   |   +---all.flst                         # Filelist für alle dem Experiment angehörigen Dateien
+|   |   +---test.flst                        # zum Test gehörige Dateien
+|   |   \---train.flst                       # Dateien für Training, dürfen keine Test-Dateien enthalten
+|   +---info                                 # Konfigurationsdateien fuer HMM-Training
+|   |   +---classes.txt
+|   |   \---Versuch1.mcfg
+|   +---log                                  # log-Dateien des entsprechenden Experimentes
+|   \---model                                # Modelle des entsprechenden Experimentes
++---Versuch123								 #
+|   +---flists                               # Verzeichnis mit den Filelisten fuers Training des aktuellen Versuchs
+|   |   +---all.flst                         # Filelist für alle dem Experiment angehörigen Dateien
+|   |   +---test.flst                        # zum Test gehörige Dateien
+|   |   \---train.flst                       # Dateien für Training, dürfen keine Test-Dateien enthalten
+|   +---info                                 # Konfigurationsdateien fuer HMM-Training sowie
+|   |   +---classes.txt
+|   |   \---Versuch123.mcfg
+|   +---log                                  # log-Dateien des entsprechenden Experimentes
+|   \---model                                # Modelle des entsprechenden Experimentes
++---Versuch_CV
+|   +---flists                               # Verzeichnis mit den Filelisten fuers Training des aktuellen Versuchs
+|   |   +---D.flst
+|   |   +---D_V1.flst
+|   |   +---D_V2.flst
+|   |   +---D_V33.flst
+|   |   +---ABEFNR.flst
+|   |   +---ABEFNR_V1.flst
+|   |   +---ABEFNR_V2.flst
+|   |   \---ABEFNR_V3.flst
+|   +---info                                 # Konfigurationsdateien fuer HMM-Training
+|   |   +---classes.txt
+|   |   \---Versuch_CV.mcfg
+|   |   \---Versuch_CV_V1.mcfg				 # 5-fold train "D_V1", cross-validation "ABEFNR_V1"
+|   |   \---Versuch_CV_V2.mcfg				 # 5-fold train "D_V2", cross-validation "ABEFNR_V2"
+|   |   \---Versuch_CV_V3.mcfg				 # 5-fold train "D_V2", cross-validation "ABEFNR_V2"
+|   +---log                                  # log-Dateien des entsprechenden Experimentes
+|   \---model                                # Modelle des entsprechenden Experimentes
 \---Vorversuch                               # beinhaltet keine LIVE-Erkennung, war zum bestaetigen der Machbarkeit
     +---flists                               # ...der gesamten Versuchsreihe
     \---info
